@@ -147,6 +147,17 @@ footer{
     height: 200px;
 }
 
-.mapouter {
+#social-media {
+    height: 40px;
     width: 100%;
+    background-color: #ccac90;
+}
+
+#social-media > ul {
+    list-style: none;
+    text-align: center;
+}
+
+#social-media li {
+    display: inline;
 }
