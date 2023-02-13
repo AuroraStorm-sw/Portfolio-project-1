@@ -3,6 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
 
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
 
 
 /* Logo */
@@ -14,22 +25,29 @@
     padding: 10px;
     float: left;
     border: 2px dotted;
+    
 
 }
 
 nav {
     float: right;
-    
+    list-style: none;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
+/* Hero image */
+
+#hero-box {
+    border: 1px solid;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
 }
 
-a {
-    text-decoration: none;
-    color: #000;
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-imag-test2.jpg') no-repeat center center;
+
 }
