@@ -6,19 +6,17 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
     background-color: #FFF1E4;
     /* soft white color with a touch of creme to add to a cozy feel */
 }
 
-h1, h2, h3 {
-    color: #3b2200;
-    margin: 10px 10px;
+h2 {
+    font-family: Roboto Slab, serif;
 }
 
-p {
-    font-size: 120%;
+p, h3 {
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
 }
 
 a {
@@ -30,12 +28,13 @@ a {
 /* Logo */
 
 #logo {
+    color: #3b2200;
     font-family: Roboto Slab, serif;
     font-size: 300%;
     margin-left: 20px;
     padding: 10px;
     float: left;
-    border: 2px dotted #5e3b1f;
+    border: 2px dotted #000;
 
 }
 
@@ -64,7 +63,6 @@ a {
 /* Hero image */
 
 #hero-box {
-    border: 1px solid;
     height: 600px;
     width: 100%;
 
@@ -82,14 +80,15 @@ a {
 
 }
 
+/* Introduction box */
+
 #intro {
-    border: 1px solid;
     text-align: center;
     width: 30%;
     margin-left: 33%;
 
-}
+    background-color: #ccac90;
 
-#text-box {
+    border-radius: 5px;
 
 }
