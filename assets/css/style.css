@@ -87,7 +87,7 @@ a {
 
 #intro {
     text-align: center;
-    width: 30%;
+    width: 50%;
     margin: auto;
 
     background-color: #ccac90;
@@ -103,9 +103,8 @@ a {
 /* Time and place information */
 
 .box-style {
-
-    
     width: 20%;
+    height: 50%;
     background-color: #ccac90;
 
     border-radius: 5px;
@@ -120,15 +119,17 @@ a {
 
 #text-box-left {
     float: left;
+    margin: 100px 0 0 100px;
 
 }
 
 #text-box-center {
     margin: auto;
     display: inline-block;
-
+    margin-top: 100px;
 }
 
 #text-box-right {
     float: right;
+    margin: 100px 100px 0 0;
 }
