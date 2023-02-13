@@ -39,6 +39,13 @@ a {
 
 }
 
+/* Slogan */
+
+#slogan {
+    display: inline-block;
+    margin: 10px 0 0 20px;
+}
+
 /* Navigation bar */
 
 #menu {
@@ -132,4 +139,14 @@ a {
 #text-box-right {
     float: right;
     margin: 100px 100px 0 0;
+}
+
+/* Footer */
+
+footer{
+    height: 200px;
+}
+
+.mapouter {
+    width: 100%;
 }
