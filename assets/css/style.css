@@ -8,6 +8,17 @@ body {
     padding: 0;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
+    background-color: #FFF1E4;
+    /* soft white color with a touch of creme to add to a cozy feel */
+}
+
+h1, h2, h3 {
+    color: #3b2200;
+    margin: 10px 10px;
+}
+
+p {
+    font-size: 120%;
 }
 
 a {
@@ -19,19 +30,35 @@ a {
 /* Logo */
 
 #logo {
-    font-family: Roboto Slab serif;
+    font-family: Roboto Slab, serif;
     font-size: 300%;
     margin-left: 20px;
     padding: 10px;
     float: left;
-    border: 2px dotted;
-    
+    border: 2px dotted #5e3b1f;
 
 }
 
-nav {
+/* Navigation bar */
+
+#menu {
     float: right;
+    font-size: 180%;
+}
+
+#menu li {
     list-style: none;
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+#menu a:hover{
+    border-bottom: dotted #5e3b1f;
+}
+
+.active {
+    border-bottom: dotted #5e3b1f;
 }
 
 /* Hero image */
@@ -40,7 +67,10 @@ nav {
     border: 1px solid;
     height: 600px;
     width: 100%;
+
     overflow: hidden;
+
+    margin-bottom: 10px;
 
     position: relative;
 }
@@ -48,6 +78,18 @@ nav {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-imag-test2.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+}
+
+#intro {
+    border: 1px solid;
+    text-align: center;
+    width: 30%;
+    margin-left: 33%;
+
+}
+
+#text-box {
 
 }
