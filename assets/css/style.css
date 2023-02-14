@@ -142,7 +142,10 @@ a {
     margin: 100px 100px 0 0;
 }
 
-/*............. Material page .............*/
+/*............. MATERIALS PAGE .............*/
+
+
+/*............. Materials banner .............*/
 
 #materials-outer{
     width: 100%;
@@ -169,6 +172,47 @@ a {
     width: 100%;
     background: url('../images/materials-banner.jpg') no-repeat center center;
     opacity: 0.8;
+}
+
+/*............. Material images .............*/
+
+#material {
+    display: inline-block;
+}
+
+
+#yarn {
+    height: 300px;
+    width: 300px;
+    background: url('/assets/images/yarn.jpg') no-repeat center center;
+
+    margin: 5% 10%;
+
+}
+
+#hook {
+    height: 300px;
+    width: 300px;
+    background: url('/assets/images/hooks.jpg') no-repeat center center;
+
+    margin: 5% 10%;
+
+}
+
+#scissor {
+    height: 300px;
+    width: 300px;
+    background: url('/assets/images/scissor.jpg') no-repeat center center;
+
+    margin: 5% 10%;
+}
+
+#pattern {
+    height: 300px;
+    width: 300px;
+    background: url('/assets/images/pattern.jpg') no-repeat center center;
+
+    margin: 5% 10%;
 }
 
 
