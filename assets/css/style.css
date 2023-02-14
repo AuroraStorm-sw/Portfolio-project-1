@@ -42,7 +42,7 @@ a {
 
 #logo h2 {
     font-size: 100%;
-    margin-left: 100px;
+    margin-left: 150px;
     /* clear: left; */
 }
 
@@ -82,7 +82,18 @@ a {
 
     overflow: hidden;
 
+    position: relative;
+    text-align: center;
+    color: #000;
+
     margin-bottom: 10px;
+}
+
+#hero-box h1 {
+    
+
+    <h2>A community for caffeine-loving crocheters</h2>
+    <h3><em>No matter your skill level</em></h3>
 }
 
 #hero-image {
@@ -95,7 +106,6 @@ a {
 /*............. Introduction box .............*/
 
 
-
 #intro {
     text-align: center;
     width: 50%;
@@ -104,9 +114,6 @@ a {
     background-color: #ccac90;
 
     border-radius: 5px;
-
-    /* position: relative;
-    bottom: 70px; */
 
 } 
 
