@@ -176,10 +176,12 @@ a {
 
 /*............. Material images .............*/
 
-#material {
-    display: inline-block;
-}
 
+#material-outer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 #yarn {
     height: 300px;
@@ -214,6 +216,17 @@ a {
 
     margin: 5% 10%;
 }
+
+
+/*............. Material text .............*/
+
+
+/* #material-text {
+    float: right;
+    align-items: center;
+} */
+
+
 
 
 /*............. Footer .............*/
