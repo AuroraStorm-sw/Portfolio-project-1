@@ -10,7 +10,8 @@ body {
     /* soft white color with a touch of creme to add to a cozy feel */
 }
 
-h2 {
+
+h1, h2 {
     font-family: Roboto Slab, serif;
 }
 
@@ -150,21 +151,24 @@ a {
 
     position: relative;
     text-align: center;
-    color: white;
+    color: #000;
     
 }
 
 #materials-outer h1 {
     position: absolute;
-    top: 50%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    font-size: 500%;
 }
 
 #materials-banner {
     height: 400px;
     width: 100%;
     background: url('../images/materials-banner.jpg') no-repeat center center;
+    opacity: 0.8;
 }
 
 
