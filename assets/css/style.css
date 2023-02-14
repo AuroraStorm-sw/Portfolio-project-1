@@ -4,8 +4,8 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     background-color: #FFF1E4;
     /* soft white color with a touch of creme to add to a cozy feel */
 }
@@ -19,7 +19,7 @@ h1, h2 {
 p, h3 {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 a {
@@ -45,6 +45,34 @@ a {
     margin-left: 150px;
     /* clear: left; */
 }
+
+/*............. Hero image .............*/
+
+#hero-banner-outer {
+    height: 600px;
+    width: 100%;
+
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+}
+
+
+#hero-banner {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+
+}
+
+#hero-banner h1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
 
 /*............. Navigation bar .............*/
 
@@ -74,34 +102,6 @@ a {
     border-bottom: solid 1px #5e3b1f;
 }
 
-/*............. Hero image .............*/
-
-#hero-box {
-    height: 600px;
-    width: 100%;
-
-    overflow: hidden;
-
-    position: relative;
-    text-align: center;
-    color: #000;
-
-    margin-bottom: 10px;
-}
-
-#hero-box h1 {
-    
-
-    <h2>A community for caffeine-loving crocheters</h2>
-    <h3><em>No matter your skill level</em></h3>
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-
-}
 
 /*............. Introduction box .............*/
 
@@ -152,12 +152,12 @@ a {
     margin: 100px 100px 0 0;
 }
 
-/*............. MATERIALS PAGE .............*/
+/*........................... MATERIALS PAGE ...........................*/
 
 
-/*............. Materials banner .............*/
+/*............. Materials Banner .............*/
 
-.materials-banner-outer{
+#materials-banner-outer{
     width: 100%;
 
     overflow: hidden;
@@ -168,9 +168,9 @@ a {
     
 }
 
-.materials-banner-outer h1 {
+#materials-banner-outer h1 {
     position: absolute;
-    top: 32%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -187,7 +187,7 @@ a {
 /*............. Material images .............*/
 
 
-.materials-img-outer{
+#materials-img-outer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;   
@@ -201,22 +201,22 @@ a {
 }
 
 #yarn {
-    background: url('/assets/images/yarn.jpg') no-repeat center center;
+    background: url('../images/yarn.jpg') no-repeat center center;
 
 }
 
 #hook {
-    background: url('/assets/images/hooks.jpg') no-repeat center center;
+    background: url('../images/hooks.jpg') no-repeat center center;
 
 }
 
 #scissor {
-    background: url('/assets/images/scissor.jpg') no-repeat center center;
+    background: url('../images/scissor.jpg') no-repeat center center;
 
 }
 
 #pattern {
-    background: url('/assets/images/pattern.jpg') no-repeat center center;
+    background: url('../images/pattern.jpg') no-repeat center center;
 
 }
 
