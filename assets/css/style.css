@@ -148,7 +148,7 @@ footer{
 }
 
 #social-media {
-    height: 40px;
+    height: 45px;
     width: 100%;
     background-color: #ccac90;
 }
@@ -156,8 +156,14 @@ footer{
 #social-media > ul {
     list-style: none;
     text-align: center;
+
+    margin: 0;
+
 }
 
 #social-media li {
+    font-size: 38px;
+    padding-bottom: 0;
+    padding-right: 25px;
     display: inline;
 }
