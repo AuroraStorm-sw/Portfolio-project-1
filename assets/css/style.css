@@ -1,4 +1,4 @@
-/* Google fonts */
+/*............. Google fonts .............*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
 
@@ -26,7 +26,7 @@ a {
 }
 
 
-/* Logo */
+/*............. Logo .............*/
 
 #logo {
     color: #3b2200;
@@ -39,14 +39,14 @@ a {
 
 }
 
-/* Slogan */
+/*............. Slogan............. */
 
 #slogan {
     display: inline-block;
     margin: 10px 0 0 20px;
 }
 
-/* Navigation bar */
+/*............. Navigation bar .............*/
 
 #menu {
     font-family: Roboto Slab, serif;
@@ -70,7 +70,7 @@ a {
     border-bottom: solid 1px #5e3b1f;
 }
 
-/* Hero image */
+/*............. Hero image .............*/
 
 #hero-box {
     height: 600px;
@@ -88,7 +88,7 @@ a {
 
 }
 
-/* Introduction box */
+/*............. Introduction box .............*/
 
 
 
@@ -107,7 +107,7 @@ a {
 } 
 
 
-/* Time and place information */
+/*............. Time and place information .............*/
 
 .box-style {
     width: 20%;
@@ -141,16 +141,34 @@ a {
     margin: 100px 100px 0 0;
 }
 
-/* Footer */
+/*............. Material page .............*/
+
+#material-outer{
+    width: 100%;
+
+    overflow: hidden;
+    
+}
+
+#materials-banner {
+    height: 400px;
+    width: 100%;
+    background: url('../images/materials-banner.jpg') no-repeat center center;
+}
+
+
+/*............. Footer .............*/
 
 footer{
     height: 200px;
+
 }
 
 #social-media {
     height: 45px;
     width: 100%;
     background-color: #ccac90;
+
 }
 
 #social-media > ul {
