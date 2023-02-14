@@ -143,11 +143,22 @@ a {
 
 /*............. Material page .............*/
 
-#material-outer{
+#materials-outer{
     width: 100%;
 
     overflow: hidden;
+
+    position: relative;
+    text-align: center;
+    color: white;
     
+}
+
+#materials-outer h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #materials-banner {
