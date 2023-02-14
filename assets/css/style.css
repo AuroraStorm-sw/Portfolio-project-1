@@ -10,9 +10,10 @@ body {
     /* soft white color with a touch of creme to add to a cozy feel */
 }
 
-
 h1, h2 {
     font-family: Roboto Slab, serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p, h3 {
@@ -22,7 +23,6 @@ p, h3 {
 }
 
 a {
-
     color: #000;
 }
 
@@ -32,19 +32,18 @@ a {
 #logo {
     color: #3b2200;
     font-family: Roboto Slab, serif;
-    font-size: 300%;
-    margin-left: 20px;
-    padding: 10px;
+    font-size: 180%;
+    margin: 20px 20px;
     float: left;
-    border: 2px dotted #000;
+    
+    /* border: 2px dotted #000; */
 
 }
 
-/*............. Slogan............. */
-
-#slogan {
-    display: inline-block;
-    margin: 10px 0 0 20px;
+#logo h2 {
+    font-size: 100%;
+    margin-left: 100px;
+    /* clear: left; */
 }
 
 /*............. Navigation bar .............*/
