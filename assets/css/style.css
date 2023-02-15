@@ -110,21 +110,6 @@ a {
 }
 
 
-/*............. Introduction box .............*/
-
-
-#intro {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-
-    background-color: #ccac90;
-
-    border-radius: 5px;
-
-} 
-
-
 /*............. Time and place information .............*/
 
 .box-style {
@@ -158,6 +143,20 @@ a {
     float: right;
     margin: 100px 100px 0 0;
 }
+
+/*............. Introduction box .............*/
+
+
+#intro {
+    text-align: center;
+    width: 50%;
+    margin: 20px 25%;
+
+    background-color: #ccac90;
+
+    border-radius: 5px;
+
+} 
 
 /*........................... MATERIALS PAGE ...........................*/
 
@@ -278,8 +277,12 @@ opacity: 0.8;
 }
 
 
+/*............. Form .............*/
 
-/*............. Footer .............*/
+  
+ 
+
+/*........................... FOOTER ...........................*/
 
 footer{
     height: 200px;
@@ -313,6 +316,5 @@ i {
 
     font-size: 38px;
     padding: 5px 25px 0px 25px;
-
- 
 }
+
