@@ -4,8 +4,8 @@
 
 
 body {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     background-color: #FFF1E4;
     /* soft white color with a touch of creme to add to a cozy feel */
 }
@@ -34,9 +34,10 @@ a {
     font-family: Roboto Slab, serif;
     font-size: 180%;
     margin: 20px 20px;
+    padding: 5px;
     float: left;
     
-    /* border: 2px dotted #000; */
+    border: 3px dotted #000;
 
 }
 
@@ -46,10 +47,10 @@ a {
     /* clear: left; */
 }
 
-/*............. Hero image .............*/
+/*............. Hero banner .............*/
 
 #hero-banner-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
 
     position: relative;
@@ -63,7 +64,7 @@ a {
 #hero-banner {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-banner.jpg') no-repeat center center;
     opacity: 0.8;
 
 }
@@ -242,6 +243,38 @@ a {
 
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/*........................... CONTACT PAGE ...........................*/
+
+/*............. Contact Banner .............*/
+
+
+#contact-banner-outer {
+    width: 100%;
+
+    overflow: hidden;
+
+    position: relative;
+    text-align: center;
+    color: #000;
+}
+
+#contact-banner-outer h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 500%;
+}
+
+#contact-banner {
+height: 400px;
+width: 100%;
+background: url('../images/contact-banner.jpg') no-repeat center;
+opacity: 0.8;
+
 }
 
 
