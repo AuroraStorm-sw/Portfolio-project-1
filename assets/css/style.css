@@ -278,7 +278,8 @@ opacity: 0.8;
 
 
 /*............. Form .............*/
-/*Form template from https://formbold.com/templates/contact-form*/
+
+/*Form HTML/CSS template from https://formbold.com/templates/contact-form*/
 
 .formbold-main-wrapper {
     display: flex;
@@ -291,13 +292,8 @@ opacity: 0.8;
     margin: 0 auto;
     max-width: 570px;
     width: 100%;
-    background: white;
+    background: #ccac90;
     padding: 40px;
-  }
-
-  .formbold-img {
-    display: block;
-    margin: 0 auto 45px;
   }
 
   .formbold-input-wrapp > div {
@@ -314,10 +310,10 @@ opacity: 0.8;
     width: 50%;
   }
   .formbold-form-input {
-    width: 100%;
+    width: 70%;
     padding: 13px 22px;
     border-radius: 5px;
-    border: 1px solid #dde3ec;
+    border: 1px solid #3b2200;
     background: #ffffff;
     font-weight: 500;
     font-size: 16px;
@@ -339,40 +335,6 @@ opacity: 0.8;
     margin-bottom: 10px;
   }
 
-  .formbold-checkbox-label {
-    display: flex;
-    cursor: pointer;
-    user-select: none;
-    font-size: 16px;
-    line-height: 24px;
-    color: #536387;
-  }
-  .formbold-checkbox-label a {
-    margin-left: 5px;
-    color: #6a64f1;
-  }
-  .formbold-input-checkbox {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
-  .formbold-checkbox-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    margin-right: 16px;
-    margin-top: 2px;
-    border: 0.7px solid #dde3ec;
-    border-radius: 3px;
-  }
 
 /*........................... FOOTER ...........................*/
 
