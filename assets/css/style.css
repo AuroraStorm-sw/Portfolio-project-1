@@ -16,7 +16,7 @@ h1, h2 {
     margin-bottom: 0;
 }
 
-p, h3 {
+form, p, h3 {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     /* margin: 10px; */
@@ -38,6 +38,7 @@ a {
     float: left;
     
     border: 3px dotted #000;
+    border-radius: 5px;
 
 }
 
@@ -286,6 +287,7 @@ opacity: 0.8;
     align-items: center;
     justify-content: center;
     padding: 48px;
+    margin-top: 30px;
   }
 
   .formbold-form-wrapper {
@@ -294,6 +296,8 @@ opacity: 0.8;
     width: 100%;
     background: #ccac90;
     padding: 40px;
+    border: 1px solid #3b2200;
+    border-radius: 5px;
   }
 
   .formbold-input-wrapp > div {
@@ -313,26 +317,30 @@ opacity: 0.8;
     width: 70%;
     padding: 13px 22px;
     border-radius: 5px;
+
     border: 1px solid #3b2200;
     background: #ffffff;
+
     font-weight: 500;
     font-size: 16px;
-    color: #536387;
+
     outline: none;
     resize: none;
   }
 
-  .formbold-form-input:focus {
-    border-color: #6a64f1;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-  }
-
   .formbold-form-label {
-    color: #536387;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
+
     display: block;
     margin-bottom: 10px;
+  }
+
+  #formbold-btn {
+   font-size: 16px;
+
+    border: 1px solid #3b2200;
+    border-radius: 5px;
   }
 
 
