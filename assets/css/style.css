@@ -205,12 +205,14 @@ a {
 #materials-img-outer{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;   
+    align-items: center;
 }
 
 .materials-image {
     height: 300px;
     width: 300px;
+
+    border-radius: 5px;
 
     margin-bottom: 20px;
 }
@@ -242,6 +244,10 @@ a {
 
 /*............. Material text .............*/
 
+#materials-text-outer {
+    margin-bottom: 18px;
+}
+
 .materials-text {
     font-family: Open sans, sans-serif;
 
@@ -257,7 +263,7 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
 
-    padding: 2px 5px 0 5px;
+    
 }
 
 /*........................... CONTACT PAGE ...........................*/
@@ -302,7 +308,6 @@ opacity: 0.8;
     align-items: center;
     justify-content: center;
     padding: 48px;
-    margin-top: 30px;
   }
 
   .formbold-form-wrapper {
@@ -363,7 +368,6 @@ opacity: 0.8;
 
 footer{
     height: 200px;
-
 }
 
 .no-map {
