@@ -32,6 +32,50 @@ The reason to create this website is to invite people who enjoy crocheting, no m
 
 ### As a new user:
 
-- I want to know where the neetups are held
+- I want to know where and when the meetups are held
 - I may need to know what materials to bring to a meetup in case something is available on the spot or if I need to bring all materials myself
 - I need to be able to contact the organizer about any questions regarding meetups and materials
+
+### As a returning customer:
+- I need to know if any meetups are cancelled beforehand
+- I want to be able to send questions or feedback to the organizer
+
+
+
+
+
+# Wireframes
+
+# Designs
+
+## Colors
+
+### Main colors used:
+
+
+## Fonts
+
+## Images
+
+
+
+# Features
+
+### Navigation bar
+
+### Footer
+
+# Home
+
+### Time and location information
+
+### Short history about crocheting
+
+# Materials
+
+## Information about what materials to bring
+
+# Contact
+
+
+# Accessability
