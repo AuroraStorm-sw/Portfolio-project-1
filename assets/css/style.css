@@ -370,6 +370,16 @@ opacity: 0.8;
     border-radius: 5px;
   }
 
+/*............. Form message .............*/
+
+.formbold-form-wrapper h2, h3 {
+    text-align: center;
+ 
+}
+
+#message-img {
+   background: url('../images/message-img.jpg') no-repeat center center; 
+}
 
 /*........................... FOOTER ...........................*/
 
