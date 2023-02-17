@@ -374,17 +374,20 @@ opacity: 0.8;
 
 .formbold-form-wrapper h2, h3 {
     text-align: center;
- 
-}
 
-#message-img {
-   background: url('../images/message-img.jpg') no-repeat center center; 
+    padding-top: 20px;
+ 
 }
 
 /*........................... FOOTER ...........................*/
 
 footer{
-    height: 200px;
+    width: 100%;
+}
+
+#material-page {
+    position: absolute;
+    bottom: 0;
 }
 
 .no-map {
@@ -411,7 +414,6 @@ footer{
 }
 
 i {
-
     font-size: 38px;
     padding: 5px 25px 0px 25px;
 }
