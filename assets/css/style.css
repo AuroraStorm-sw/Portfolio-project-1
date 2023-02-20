@@ -136,7 +136,7 @@ a {
 
 #text-box-left {
     float: left;
-    margin: 50px 0 0 80px;
+    margin: 50px 0 0 15%;
 
 }
 
@@ -148,7 +148,7 @@ a {
 
 #text-box-right {
     float: right;
-    margin: 50px 80px 0 0;
+    margin: 50px 15% 0 0;
 }
 
 /*............. Text boxes .............*/
@@ -156,8 +156,9 @@ a {
 
 .home-textbox {
     text-align: center;
-    width: 50%;
-    margin: 20px 25%;
+    width: 70%;
+
+    margin-left: 15%;
 
     background-color: #ccac90;
 
@@ -330,7 +331,7 @@ td {
 /*Form HTML/CSS template from https://formbold.com/templates/contact-form*/
 
 .formbold-main-wrapper {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     padding: 48px;
@@ -344,6 +345,10 @@ td {
     padding: 40px;
     border: 1px solid #3b2200;
     border-radius: 5px;
+  }
+
+  #contact-img img {
+    
   }
 
   .formbold-input-wrapp > div {
@@ -383,30 +388,29 @@ td {
   }
 
   #formbold-btn {
-   font-size: 16px;
+    font-size: 16px;
+    padding: 5px;
 
     border: 1px solid #3b2200;
     border-radius: 5px;
   }
 
-/*............. Form message .............*/
+/*............. Thank you message .............*/
 
-.formbold-form-wrapper h2 {
+
+
+#thank-you{
+    position: relative;
     text-align: center;
 
-    padding-top: 20px;
- 
+    margin-top: 50px;
+    padding: 50px;
 }
 
 /*........................... FOOTER ...........................*/
 
 footer{
     width: 100%;
-}
-
-#material-page {
-    position: absolute;
-    bottom: 0;
 }
 
 .no-map {
