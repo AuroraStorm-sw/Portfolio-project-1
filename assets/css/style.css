@@ -15,7 +15,7 @@ h1 {
 }
 
 h1, h2 {
-    font-family: 'Montserrat', serif;
+    font-family: Roboto Slab, serif;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -64,16 +64,7 @@ a {
     margin-bottom: 10px;
 }
 
-
-#hero-banner {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-banner.jpg') no-repeat center center;
-    opacity: 0.8;
-
-}
-
-#hero-banner h2 {
+#hero-banner-outer h1 {
     position: absolute;
     top: 40%;
     left: 25%;
@@ -81,6 +72,15 @@ a {
     text-align: center;
 
     font-size: 400%;
+
+}
+
+
+#hero-banner {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-banner.jpg') no-repeat center center;
+    opacity: 0.6;
 
 }
 
@@ -198,7 +198,7 @@ a {
     width: 100%;
     background: url('../images/materials-banner.jpg') no-repeat center center;
 
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 /*............. Material images .............*/
@@ -283,6 +283,16 @@ a {
     color: #000;
 }
 
+#contact-banner {
+    height: 400px;
+    width: 100%;
+    background: url('../images/contact-banner.jpg') no-repeat center;
+    
+    opacity: 0.6;
+    
+    }
+    
+
 #contact-banner-outer h1 {
     position: absolute;
     top: 50%;
@@ -292,13 +302,6 @@ a {
     font-size: 500%;
 }
 
-#contact-banner {
-height: 400px;
-width: 100%;
-background: url('../images/contact-banner.jpg') no-repeat center;
-opacity: 0.8;
-
-}
 
 
 /*............. Form .............*/
