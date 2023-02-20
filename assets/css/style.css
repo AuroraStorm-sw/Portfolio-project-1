@@ -151,10 +151,10 @@ a {
     margin: 50px 80px 0 0;
 }
 
-/*............. Did you know? box .............*/
+/*............. Text boxes .............*/
 
 
-#intro {
+.home-textbox {
     text-align: center;
     width: 50%;
     margin: 20px 25%;
@@ -165,7 +165,7 @@ a {
     border-radius: 5px;
 } 
 
-#intro p {
+.home-textbox p {
     padding: 5px;
 }
 
@@ -203,6 +203,26 @@ a {
     opacity: 0.6;
 }
 
+/*............. Material table .............*/
+
+
+table {
+    width: 70%;
+
+    margin: 50px 0 50px 15%;
+
+    border-collapse: collapse; 
+}
+
+tr {
+    border: #3b2200 1px solid;
+}
+
+td {
+    padding-right: 50px;
+    padding: 10px 5px 0 10px;
+}
+
 /*............. Material images .............*/
 
 
@@ -219,6 +239,8 @@ a {
     border-radius: 5px;
 
     margin-bottom: 20px;
+
+    background-color: #ffffff;
 }
 
 .materials-image h2 {
@@ -257,17 +279,8 @@ a {
 
     width: 900px;
     height: 300px;
-    background-color: #ccac90;
 
-    border: 1px solid #3b2200;
-    border-radius: 5px;
-
-    overflow-wrap: break-word;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    
+    overflow-wrap: break-word;    
 }
 
 /*........................... CONTACT PAGE ...........................*/
@@ -290,7 +303,7 @@ a {
     width: 100%;
     background: url('../images/contact-banner.jpg') no-repeat center;
     background-color: #ccac90;
-    
+
     opacity: 0.6;
     
     }
@@ -378,7 +391,7 @@ a {
 
 /*............. Form message .............*/
 
-.formbold-form-wrapper h2, h3 {
+.formbold-form-wrapper h2 {
     text-align: center;
 
     padding-top: 20px;
