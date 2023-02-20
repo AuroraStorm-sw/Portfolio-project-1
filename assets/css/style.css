@@ -227,15 +227,15 @@ td {
 /*............. Material images .............*/
 
 
-#materials-img-outer{
+/* #materials-img-outer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
+} */
 
 .materials-image {
-    min-height: 300px;
-    min-width: 300px;
+    height: 300px;
+    width: 300px;
 
     border-radius: 5px;
 
@@ -271,10 +271,19 @@ td {
 
 /*............. Material text .............*/
 
-table {
-    max-width: 70%;
-    min-height: 300px;
-}
+/* Layout from https://www.w3schools.com/howto/howto_css_two_columns.asp */
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 #materials-text-outer {
     margin-bottom: 18px;
