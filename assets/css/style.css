@@ -395,6 +395,10 @@ td {
     border-radius: 5px;
   }
 
+  .radio {
+    display: block;
+  }
+
 /*............. Thank you message .............*/
 
 
