@@ -248,34 +248,17 @@ td {
     padding-left: 5px;
 }
 
-#yarn {
-    background: url('../images/yarn.jpg') no-repeat center center;
-
-}
-
-#hook {
-    background: url('../images/hooks.jpg') no-repeat center center;
-
-}
-
-#scissor {
-    background: url('../images/scissor.jpg') no-repeat center center;
-
-}
-
-#pattern {
-    background: url('../images/pattern.jpg') no-repeat center center;
-
-}
-
-
 /*............. Material text .............*/
 
 /* Layout from https://www.w3schools.com/howto/howto_css_two_columns.asp */
 
 .column {
     float: left;
-    width: 50%;
+
+    height: 309px;
+    width: 49%;
+    border: 1px solid #3b2200;
+
   }
   
   /* Clear floats after the columns */
@@ -287,12 +270,6 @@ td {
 
 #materials-text-outer {
     margin-bottom: 18px;
-}
-
-.materials-text {
-    font-family: Open sans, sans-serif;
-
-    overflow-wrap: break-word;    
 }
 
 /*........................... CONTACT PAGE ...........................*/
