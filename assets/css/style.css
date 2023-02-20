@@ -54,7 +54,7 @@ a {
 /*............. Hero banner .............*/
 
 #hero-banner-outer {
-    min-height: 400px;
+    height: 50%;
     width: 100%;
 
     position: relative;
@@ -65,13 +65,13 @@ a {
 }
 
 #hero-banner-outer h1 {
-    position: absolute;
-    top: 40%;
-    left: 25%;
-
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-    font-size: 400%;
+    font-size: 300%;
 
 }
 
@@ -79,8 +79,11 @@ a {
 #hero-banner {
     min-height: 400px;
     min-width: 100%;
-    background: url('../images/hero-banner.jpg') no-repeat center center;
+    background: url('../images/hero-banner.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
     background-color: #ccac90;
+
     opacity: 0.6;
 
 }
@@ -204,60 +207,19 @@ a {
     opacity: 0.6;
 }
 
-/*............. Material table .............*/
-
-
-table {
-    width: 70%;
-
-    margin: 50px 0 50px 15%;
-
-    border-collapse: collapse; 
-}
-
-tr {
-    border: #3b2200 1px solid;
-}
-
-td {
-    padding-right: 50px;
-    padding: 10px 5px 0 10px;
-}
-
-/*............. Material images .............*/
-
-
-/* #materials-img-outer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-} */
-
-.materials-image {
-    height: 300px;
-    width: 300px;
-
-    border-radius: 5px;
-
-    margin-bottom: 20px;
-
-    background-color: #ffffff;
-}
-
-.materials-image h2 {
-    padding-left: 5px;
-}
-
 /*............. Material text .............*/
 
 /* Layout from https://www.w3schools.com/howto/howto_css_two_columns.asp */
 
+
 .column {
     float: left;
 
+    padding-left: 5px;
+    
     height: 309px;
     width: 49%;
-    border: 1px solid #3b2200;
+    border: 1px solid #3b2200;   
 
   }
   
@@ -422,3 +384,80 @@ i {
     padding: 5px 25px 0px 25px;
 }
 
+/*........................... Media Query ...........................*/
+/* From https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
+
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: 100%;
+
+    }
+  } 
