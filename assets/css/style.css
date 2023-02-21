@@ -52,6 +52,7 @@ a {
 }
 
 /*............. Hero banner .............*/
+/* Guide from https://www.w3schools.com/howto/howto_css_hero_image.asp */
 
 #hero-banner-outer {
     height: 50%;
@@ -137,22 +138,20 @@ a {
 }
 
 
-#text-box-left {
-    float: left;
-    margin: 50px 0 10px 15%;
 
-}
 
-#text-box-center {
-    margin: auto;
-    display: inline-block;
-    margin-top: 50px;
-}
+#text-box-left, #text-box-center, #text-box-right {
+  margin: 10px auto;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 200px;
+  background-color: #ccac90;
+  border: #04AA6D solid 1px;
+  padding: 10px;
+  }
 
-#text-box-right {
-    float: right;
-    margin: 50px 15% 0 0;
-}
+
+
 
 /*............. Text boxes .............*/
 
@@ -195,7 +194,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    font-size: 500%;
+    font-size: 400%;
 }
 
 #materials-banner {
@@ -209,7 +208,7 @@ a {
 
 /*............. Material text .............*/
 
-/* Layout from https://www.w3schools.com/howto/howto_css_two_columns.asp */
+/* Guide from https://www.w3schools.com/howto/howto_css_two_columns.asp */
 
 
 .column {
@@ -266,7 +265,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    font-size: 500%;
+    font-size: 400%;
 }
 
 
@@ -278,7 +277,7 @@ a {
     padding-top: 10px;
 }
 
- /*Form from https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+ /* Form from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
 
 
@@ -387,71 +386,47 @@ i {
 /*........................... Media Query ...........................*/
 /* From https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
+@media screen and (min-width: 1300px) {
   
-    /* CSS */
+body{
+  background-color: orange;
+}
+
+#text-box-left {
+  float: left;
+  margin: 50px 0 10px 15%;
+
+}
+
+#text-box-center {
+  margin: auto;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#text-box-right {
+  float: right;
+  margin: 50px 15% 0 0;
+}
+
+
     
   }
   
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    /* CSS */
-    
+ /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
   }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    /* CSS */
-    
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
   }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    /* CSS */
-    
-  }
+}
 
  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
  @media screen and (max-width: 600px) {
