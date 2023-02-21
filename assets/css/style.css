@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
 
+/*............. General .............*/
 
 body {
     margin: 0;
@@ -30,7 +31,6 @@ a {
     color: #000;
 }
 
-
 /*............. Logo .............*/
 
 #logo {
@@ -43,7 +43,6 @@ a {
     
     border: 3px dotted #000;
     border-radius: 5px;
-
 }
 
 #logo h2 {
@@ -52,6 +51,7 @@ a {
 }
 
 /*............. Hero banner .............*/
+
 /* Guide from https://www.w3schools.com/howto/howto_css_hero_image.asp */
 
 #hero-banner-outer {
@@ -73,9 +73,7 @@ a {
     transform: translate(-50%, -50%);
 
     font-size: 300%;
-
 }
-
 
 #hero-banner {
     min-height: 400px;
@@ -86,7 +84,6 @@ a {
     background-color: #ccac90;
 
     opacity: 0.6;
-
 }
 
 
@@ -111,18 +108,21 @@ a {
 }
 
 #nav a:hover{
-    border-bottom: solid 1px #5e3b1f;
+    border-bottom: solid 1px #3b2200;
 }
 
 .active {
-    border-bottom: solid 1px #5e3b1f;
+    border-bottom: solid 1px #3b2200;
 }
 
 
 /*............. Time and place information .............*/
 
+#time-place-information{
+  text-align: center;
+}
+
 .text-box-style {
-    min-width: 300px;
     max-width: 300px;
     min-height: 200px;
     background-color: #ccac90;
@@ -133,17 +133,15 @@ a {
     padding-bottom: 5px;
 }
 
-#time-place-information{
-    text-align: center;
-}
 
 #text-box-left, #text-box-center, #text-box-right {
-  margin: 10px auto;
   min-width: 300px;
-  max-width: 300px;
   min-height: 200px;
   background-color: #ccac90;
-  border: #5e3b1f solid 1px;
+
+  border: #3b2200 solid 1px;
+
+  margin: 10px auto;
   padding: 10px;
   }
 
@@ -151,15 +149,15 @@ a {
 
 
 .home-textbox {
-    text-align: center;
     width: 70%;
 
-    margin: 5% 0 0 15%;
-
     background-color: #ccac90;
+    text-align: center;
 
     border: 1px solid #3b2200;
     border-radius: 5px;
+
+    margin: 5% 0 0 15%;
 } 
 
 .home-textbox p {
@@ -178,7 +176,6 @@ a {
 
     position: relative;
     text-align: center;
-    color: #000;
     
 }
 
@@ -194,6 +191,7 @@ a {
 #materials-banner {
     min-height: 400px;
     min-width: 100%;
+
     background: url('../images/materials-banner.jpg') no-repeat center center;
     background-color: #ccac90;
 
@@ -213,7 +211,6 @@ a {
 }
 
 .column {
-
   width: 100%;
   height: 100%;
 
@@ -222,12 +219,11 @@ a {
   margin-top: 5px;
   padding-top: 2%;
 
-
-  }
+}
 
   .column li {
     list-style: none;
-  }
+}
   
   /* Clear floats after the columns */
   .row:after {
@@ -252,18 +248,17 @@ a {
 
     position: relative;
     text-align: center;
-    color: #000;
 }
 
 #contact-banner {
     min-height: 400px;
     min-width: 100%;
+
     background: url('../images/contact-banner.jpg') no-repeat center;
     background-color: #ccac90;
 
     opacity: 0.6;
-    
-    }
+}
     
 
 #contact-banner-outer h1 {
@@ -281,65 +276,83 @@ a {
 
 #form-header {
     text-align: center;
+
     padding-top: 10px;
 }
 
  /* Form from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
-
-
 #form-container {
     background-color: #ccac90;
     max-width: 800px;
 
-    margin-left: 25%;
-    margin-bottom: 4%;
-
+    margin: 25px auto;
     padding: 1%;
+
+    border-radius: 5px;
+}
+
+#form-container p {
+  text-align: center;
 }
 
  input[type=text], select, textarea {
     width: 90%; 
-    padding: 12px; 
+
+  
     border: 1px solid #3b2200; 
     border-radius: 4px; 
     box-sizing: border-box;
-    margin-left: 5%;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+
+    margin: 6px 0 16px 5%;
+
+    padding: 12px; 
+
     resize: vertical; 
-  }
+}
 
   .label-text {
     margin-left: 5%;
 
-  }
+ }
+
+  textarea {
+    font-family: 'Open sans', sans-serif;
+}
+
+  fieldset {
+    border: none;
+}
 
   input[type="radio"] {
     margin-left: 5%;
-  }
+}
   
-  /* Style the submit button with a specific background color etc */
+
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #65c069;
+
+    font-size: 16px;
+
     padding: 12px 20px;
+
     border: 1px solid #3b2200;
     border-radius: 4px;
+
     cursor: pointer;
-  }
+}
   
-  /* When moving the mouse over the submit button, add a darker green color */
+
   input[type=submit]:hover {
-    background-color: #45a049;
-  }
+    background-color: #73ce78;
+}
   
-  /* Add a background color and some padding around the form */
+
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  } 
+} 
 
 /*............. Thank you message .............*/
 
@@ -357,11 +370,11 @@ a {
 
   max-width: 50%;
 
-  margin: 5% auto;
-  padding: 2%;
-
   border: 1px solid #3b2200;
   border-radius: 5px;
+
+  margin: 5% auto;
+  padding: 2%;
 }
 
 /*........................... FOOTER ...........................*/
@@ -424,13 +437,6 @@ i {
   margin: 50px 15% 0 0;
 }
 
-  }
-  
- 
-@media screen and (max-width: 1200px) {
-
-}
-
 @media screen and (max-width: 900px) {
 
   #logo {
@@ -446,8 +452,7 @@ i {
   #nav ul > li {
     list-style: none;
     display: block;
-
     
-}
+  }
 
 }
