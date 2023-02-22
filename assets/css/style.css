@@ -182,7 +182,7 @@ a {
     
 }
 
-#materials-banner-outer h1 {
+#materials-banner-outer h2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -224,18 +224,17 @@ a {
 
 }
 
-  .column li {
+.column li {
     list-style: none;
 }
   
-  /* Clear floats after the columns */
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  .responsive {
+.img-responsive {
     max-width: 100%;
     height: auto;
   }
@@ -269,7 +268,7 @@ a {
 }
     
 
-#contact-banner-outer h1 {
+#contact-banner-outer h2 {
     position: absolute;
     top: 50%;
     left: 50%;

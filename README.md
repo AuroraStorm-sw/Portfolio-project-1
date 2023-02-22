@@ -124,7 +124,7 @@ Both fonts are backed up with 'Serif'.
 
 I picked this as the banner for the home page because the colors are calm and easy on the eyes and the image displays what the website is built for; crocheting and coffee.
 
-![Materials banner](/assets/images/materials-banner.jpg)
+![Materials banner](documentation/material-banner-smaller.PNG)
 
 The search for a perfect banner for the materials page was long but I fell for this one since it includes all necessary items for crocheting laid out in a very nice way,
 
@@ -135,7 +135,7 @@ The search for a perfect banner for the materials page was long but I fell for t
 
 Each image for the Materials page was picked to make the most sense in regards to each paragraph of information.
 
-![Contact banner](/assets/images/contact-banner.jpg)
+![Contact banner](documentation/contact-banner-smaller.PNG)
 
 The image I found for the contact banner I found also fits the calm, cozy feel without any colors that are too strong or overwhelming.
 
@@ -143,22 +143,28 @@ The image I found for the contact banner I found also fits the calm, cozy feel w
 
 The website is made up of 4 pages;
 
+- Home
+![Home page img](documentation/home-page.png)
+
 
 The home page includes a short history about crocheting and how crafting in history has been done in the company of a community.
 
 There are also 3 separate boxes with information about time and place of the meetups.
 
 - Materials
+
 ![Materials page img](documentation/materials-page.PNG) 
 
 The materials page includes a list of recommended material to bring to a meetup, including yarn, crochet hooks, scissors, and patterns.
 
 - Contact
+
 ![Contact page img](documentation/contact-page.PNG)
 
 The contact page is made up of a simple contact form that brings the user to a thank you message once the message is sent.
 
 - A Thank you page
+
 ![Thank you page img](documentation/thank-you-page.PNG) 
 
 
