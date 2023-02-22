@@ -151,7 +151,7 @@ The website is made up of 4 pages;
 
 The home page includes a short history about crocheting and how crafting in history has been done in the company of a community.
 
-There are also 3 separate boxes with information about time and place of the meetups.
+From the start, there where 3 separate boxes with information about time and place of the meetups. This was changed into a 4 column layout as the previous was difficult to style in a satisfying way.
 
 - Materials
 

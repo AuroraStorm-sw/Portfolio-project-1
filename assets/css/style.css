@@ -126,7 +126,7 @@ a {
   border: 1px solid #3b2200;
   border-radius: 5px;
 
-  margin-left: 15%;
+  margin: 2% 15%;
   
 } 
 
@@ -165,8 +165,6 @@ a {
   padding: 20px;
 
 }
-
-
 
 /*........................... MATERIALS PAGE ...........................*/
 
@@ -227,6 +225,7 @@ a {
 
 .column li {
     list-style: none;
+    padding: 2%;
 }
   
 .row:after {
@@ -462,29 +461,6 @@ i {
 
 /*........................... Media Query ...........................*/
 
-
-@media screen and (min-width: 1300px) {
-
-
-#text-box-left {
-  float: left;
-  margin: 50px 0 10px 15%;
-
-  }
-
-#text-box-center {
-  margin: auto;
-  display: inline-block;
-  margin-top: 50px;
-  }
-
-#text-box-right {
-  float: right;
-  margin: 50px 15% 0 0;
-  }
-
-}
-
 @media screen and (max-width: 900px) {
 
   #logo {
@@ -499,12 +475,6 @@ i {
   #nav ul > li {
     list-style: none;
     display: block;
-  }
-
-  .home-textbox {
-    max-width: 70%;
-    
-    margin: auto;
   }
 
   .home-column {
@@ -523,6 +493,10 @@ i {
   min-width: 300px;
 }
 
+.home-textbox {
+  min-width: 200px;
+
+}
 
 #hero-banner-outer h2, #contact-banner-outer h2 {
     font-size: 200%;
@@ -531,5 +505,26 @@ i {
 #materials-banner-outer h2 {
   font-size: 300%;
 }
+
+i {
+  font-size: 34px;
+  padding: 5px 15px 0px 15px;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+  #logo {
+    font-size: 150%;
+    
+    border: 3px dotted #000;
+    border-radius: 5px;
+}
+
+#logo h2 {
+    font-size: 85%;
+    margin-left: 0;
+}
+
 
 }
