@@ -1,5 +1,7 @@
 # Crochet & Coffee website
 
+# [Full website here](https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
+
 # Table of contents
 
 - [UX](#ux)

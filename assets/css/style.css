@@ -329,6 +329,7 @@ a {
 
   textarea {
     font-family: 'Open sans', sans-serif;
+    height: 200px;
 }
 
   fieldset {
