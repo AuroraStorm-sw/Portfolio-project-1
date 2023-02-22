@@ -143,7 +143,7 @@ The image I found for the contact banner I found also fits the calm, cozy feel w
 
 The website is made up of 4 pages;
 - Home
-![Home page img](documentation/home-page1.PNG) 
+![Home page img](documentation/home-page1.png) 
 
 The home page includes a short history about crocheting and how crafting in history has been done in the company of a community.
 
