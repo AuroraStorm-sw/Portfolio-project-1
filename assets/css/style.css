@@ -235,6 +235,11 @@ a {
     clear: both;
   }
 
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
 #materials-text-outer {
     margin-bottom: 18px;
 }
@@ -403,6 +408,8 @@ footer{
   width: 100%;
   bottom: 0;
 
+  margin-top: 2%;
+
 }
 
 #thank-you-page {
@@ -511,5 +518,9 @@ i {
 
   i {
     padding: 5px 10px;
+  }
+
+  .column {
+    width: 100%;
   }
 }
