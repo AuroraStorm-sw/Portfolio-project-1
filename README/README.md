@@ -2,40 +2,42 @@
 
 # Table of contents
 
-- UX
-    - Website owner goals
-    - User goals
-        - First time visitor goals
-        - Returning visitor goals
-    - User stories
-        - As a website owner
-        - As a new user
-        - As a returning user
-- Wireframes
-- Designs
-    - Colors
-    - Fonts
-    - Images
-- Features
-    - Home 
-        - Time and location information
-        - Short history of crocheting
-    - Materials
-        - Information of what materials to bring
-    - Contact
-        - Contact form
-        - Thank You for your message page
-    - Navigation bar
-    - Footer
-    - Features left to implement
-- Testing
-    - Contrast check
-    - HTML Validation
-    - CSS Validation
-     - Manual Testing
-        - Lighthouse testing
-        - Wave testing
-    - Fixed bugs
+- [UX](#ux)
+    - [Website owner goals](#website-owner-goals)
+    - [User goals](#user-goals)
+        - [First time visitor goals](#first-time-visitor-goals)
+        - [Returning visitor goals](#returning-visitor-goals)
+    - [User stories](#user-stories)
+        - [As a website owner](#as-a-website-owner)
+        - [As a new user](#as-a-new-user)
+        - [As a returning user](#as-a-returning-user)
+- [Wireframes](#wireframes)
+- [Designs]
+    - [Colors]
+    - [Fonts]
+    - [Images]
+- [Features]
+    - [Home]
+        - [Time and location information]
+        - [Short history of crocheting]
+    - [Materials]
+        - [Information of what materials to bring
+    - [Contact]
+        - [Contact form]
+        - [Thank You for your message page]
+    - [Navigation bar]
+    - [Footer]
+    - [Features left to implement]
+- [Testing]
+    - [Contrast check]
+    - [HTML Validation]
+    - [CSS Validation]
+     - [Manual Testing]
+        - [Lighthouse testing]
+        - [Wave testing]
+    - [Fixed bugs]
+- [Tools](#tools)
+- [Credits](#credits)
 
 # UX
 
@@ -45,30 +47,30 @@ The reason to create this website is to invite people who enjoy crocheting, no m
 
 ## User goals
 
-### First time visitor goals:
+## First time visitor goals:
 - users can learn what materials they need to bring to a meet-up
 - users can find the location, times and dates for meet-ups
 - users can use the contact form for questions
 
-### Returning visitor goals:
+## Returning visitor goals:
 - users can message the meetup coordinator with questions and feedback
 
 ## User stories
 
-### As a website owner:
+## As a website owner:
 
 - I would like to present the page in a way that makes new users to feel welcome to join meetups no matter what skill-level they're currently at
 - I want beginners to feel comfortable knowing what materials to bring to meetups
 - I want to help users connect via meetups to share knowledge and experiences
 - I would like to build a community where people feel comfortable sharing their crocheting journey
 
-### As a new user:
+## As a new user:
 
 - I want to know where and when the meetups are held
 - I may need to know what materials to bring to a meetup in case something is available on the spot or if I need to bring all materials myself
 - I need to be able to contact the organizer about any questions regarding meetups and materials
 
-### As a returning user:
+## As a returning user:
 - I need to know if any meetups are cancelled beforehand
 - I want to be able to send questions or feedback to the organizer
 
@@ -141,9 +143,9 @@ The website is made up of 4 pages;
 - Home
 Image of home page 
 
-### Time and location information
+## Time and location information
 
-### Short history about crocheting
+## Short history about crocheting
 
 - Materials
 Image of materials page
@@ -153,12 +155,12 @@ Image of materials page
 - Contact
 Image of contact page
 
-### Contact form
+## Contact form
 
 - A Thank you page
 Image of contact page
 
-### Thank you message
+## Thank you message
 
 ## Navigation bar
 
