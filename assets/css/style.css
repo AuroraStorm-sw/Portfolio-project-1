@@ -114,11 +114,33 @@ a {
     border-bottom: solid 1px #3b2200;
 }
 
+/*............. Text boxes .............*/
+
+
+.home-textbox {
+  max-width: 70%;
+
+  background-color: #ccac90;
+  text-align: center;
+
+  border: 1px solid #3b2200;
+  border-radius: 5px;
+
+  margin-left: 15%;
+
+  
+} 
+
+.home-textbox p {
+  padding: 5px;
+}
+
 
 /*............. Time and place information .............*/
 
 #time-place-information{
   text-align: center;
+
 }
 
 .text-box-style {
@@ -139,33 +161,16 @@ a {
 
 #text-box-left, #text-box-center, #text-box-right {
   min-width: 300px;
-  min-height: 200px;
+  min-height: 150px;
   background-color: #ccac90;
 
   border: #3b2200 solid 1px;
 
   margin: 10px auto;
-  padding: 10px;
+  padding-top: 5px;
   }
 
-/*............. Text boxes .............*/
 
-
-.home-textbox {
-    width: 70%;
-
-    background-color: #ccac90;
-    text-align: center;
-
-    border: 1px solid #3b2200;
-    border-radius: 5px;
-
-    margin: 5% 0 0 15%;
-} 
-
-.home-textbox p {
-    padding: 5px;
-}
 
 /*........................... MATERIALS PAGE ...........................*/
 
@@ -393,7 +398,7 @@ a {
 
   background-color: #ccac90;
 
-  max-width: 40%;
+  max-width: 60%;
 
   border: 1px solid #3b2200;
   border-radius: 5px;
@@ -472,8 +477,9 @@ i {
 /*........................... Media Query ...........................*/
 
 
-@media screen and (min-width: 1400px) {
-  
+@media screen and (min-width: 1300px) {
+
+
 #text-box-left {
   float: left;
   margin: 50px 0 10px 15%;
@@ -508,9 +514,10 @@ i {
     list-style: none;
     display: block;
   }
+
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
   #logo h2 {
     margin-left: 0;
@@ -523,4 +530,15 @@ i {
   .column {
     width: 100%;
   }
+
+  #hero-banner-outer h1 {
+    font-size: 200%;
+}
+
+.home-textbox {
+  min-width: 300px;
+  
+ margin: auto;
+}  
+
 }
