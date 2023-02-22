@@ -58,13 +58,13 @@
                     <form action="thankyou.html" method="get">
 
                         <label class="label-text" for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" required placeholder="Your name"> <br>
+                        <input type="text" id="fname" name="firstname" required placeholder="Your name" aria-label ="Enter your name"> <br>
 
                         <label class="label-text" for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" required placeholder="Your last name"> <br>
+                        <input type="text" id="lname" name="lastname" required placeholder="Your last name" aria-label ="Enter your last name"> <br>
 
                         <label class="label-text" for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Your email"> <br>
+                        <input type="text" id="email" name="email" placeholder="Your email" aria-label ="Enter your email"> <br>
 
                         <p>Pick one of the options below so we know where you are in your journey!</p>
 
@@ -78,12 +78,13 @@
                             <input type="radio" name="skill" id="mentor" value="mentor" class="radio">
                             <label for="mentor">I'd like to help guide beginners</label> <br>
                         </fieldset>
+
                         <label class="label-text" for="subject">Message</label>
                         <textarea id="subject" name="subject" required placeholder="Your message here"
-                            style="height:200px"></textarea>
+                            style="height:200px" aria-label ="Enter your message"></textarea>
 
 
-                        <input class="label-text" type="submit" value="Submit">
+                        <input class="label-text" type="submit" value="Submit" aria-label ="Submit your message">
 
                     </form>
                 </div>
