@@ -12,32 +12,32 @@
         - [As a new user](#as-a-new-user)
         - [As a returning user](#as-a-returning-user)
 - [Wireframes](#wireframes)
-- [Designs]
-    - [Colors]
-    - [Fonts]
-    - [Images]
-- [Features]
-    - [Home]
-        - [Time and location information]
-        - [Short history of crocheting]
-    - [Materials]
-        - [Information of what materials to bring
-    - [Contact]
-        - [Contact form]
-        - [Thank You for your message page]
-    - [Navigation bar]
-    - [Footer]
-    - [Features left to implement]
-- [Testing]
-    - [Contrast check]
-    - [HTML Validation]
-    - [CSS Validation]
-     - [Manual Testing]
-        - [Lighthouse testing]
-        - [Wave testing]
-    - [Fixed bugs]
+- [Designs](#designs)
+    - [Colors](#colors)
+    - [Fonts](#fonts)
+    - [Images](#images)
+- [Features](#features)
+    - [Home](#home)
+        - [Time and location information](#time-and-location-information)
+        - [Short history of crocheting](#short-history-about-crocheting)
+    - [Materials](#materials)
+        - [Information of what materials to bring](#information-about-what-materials-to-bring)
+    - [Contact](#contact)
+        - [Contact form](#contact-form)
+        - [Thank You for your message page](#thank-you-message)
+    - [Logo](#logo)
+    - [Navigation bar](#navigation-bar)
+    - [Footer](#footer)
+    - [Features left to implement](#features-left-to-implement)
+- [Testing](#testing)
+    - [Validator testing](#validator-testing)
+    - [Manual testing](#manual-testing)
+    - [Lighthouse testing](#lighthouse-testing)
+    - [Wave testing](#wave-testing)
+    - [Fixed bugs](#fixed-bugs)
 - [Tools](#tools)
 - [Credits](#credits)
+
 
 # UX
 
@@ -48,9 +48,8 @@ The reason to create this website is to invite people who enjoy crocheting, no m
 ## User goals
 
 ## First time visitor goals:
-- users can learn what materials they need to bring to a meet-up
-- users can find the location, times and dates for meet-ups
-- users can use the contact form for questions
+- users can learn what the meetups are about
+- users can learn about the location of the meetups
 
 ## Returning visitor goals:
 - users can message the meetup coordinator with questions and feedback
@@ -77,20 +76,20 @@ The reason to create this website is to invite people who enjoy crocheting, no m
 
 # Wireframes
 
-All wireframes are made with Balsamiq Wireframes.
+All wireframes are made with Balsamiq Wireframes. 
 
 ## Home
 ![home wireframe image](documentation/home-wireframe.PNG)
 
 ## Materials
-![home wireframe image](documentation/materials-wireframe.PNG)
+![materials wireframe image](documentation/materials-wireframe.PNG)
 
 ## Contact
-![home wireframe image](documentation/contact-wireframe.PNG)
+![contact wireframe image](documentation/contact-wireframe.PNG)
 
 ## Thank You
 
-![home wireframe image](documentation/thank-you-wireframe.PNG)
+![thankyou wireframe image](documentation/thank-you-wireframe.PNG)
 
 # Designs
 
@@ -136,39 +135,48 @@ The search for a perfect banner for the materials page was long but I fell for t
 
 Each image for the Materials page was picked to make the most sense in regards to each paragraph of information.
 
+![Contact banner](/assets/images/contact-banner.jpg)
+
+The image I found for the contact banner I found also fits the calm, cozy feel without any colors that are too strong or overwhelming.
 
 # Features
 
 The website is made up of 4 pages;
 - Home
-Image of home page 
+![Home page img](documentation/home-page.PNG) 
 
-## Time and location information
+The home page includes a short history about crocheting and how crafting in history has been done in the company of a community.
 
-## Short history about crocheting
+There are also 3 separate boxes with information about time and place of the meetups.
 
 - Materials
-Image of materials page
+![Materials page img](documentation/materials-page.PNG) 
 
-### Information about what materials to bring
+The materials page includes a list of recommended material to bring to a meetup, including yarn, crochet hooks, scissors, and patterns.
 
 - Contact
-Image of contact page
+![Contact page img](documentation/contact-page.PNG)
 
-## Contact form
+The contact page is made up of a simple contact form that brings the user to a thank you message once the message is sent.
 
 - A Thank you page
-Image of contact page
+![Thank you page img](documentation/thank-you-page.PNG) 
 
-## Thank you message
+
+## Logo
+[Logo img](documentation/nav.PNG)
+
+Across all pages is the logo that's been decorated with a dotted border to make it stand out from the rest of the content and also decorate the text.
+
 
 ## Navigation bar
 
-Image of navigation bar
+[Navbar img](documentation/nav.PNG) 
 
-Across all pages is the navigation bar with minimalistic styling, since the logo is decorated it felt safest to go with a low-key design for the navigation bar.
+Across all pages is the navigation bar with minimalistic styling, since the logo is decorated it felt safest to go with a low-key design for the navigation bar. It includes 3 link to Home, Materials, and Contact
 
 ## Footer
+[Footer img](documentation/footer.PNG) 
 
 The footer is made up of 4 social media links and a google maps bar connected to a made-up address.
 
@@ -179,19 +187,18 @@ The footer is made up of 4 social media links and a google maps bar connected to
 
 # Testing
 
-- Validator testing
+## Validator testing
     - [HTML validation]()
     - [CSS validation]()
 
-- Manual Testing
-
-- Lighthouse testing
-
-- Wave testing
-
-# Accessability
-The website has gone through several different tests, such as 
+## Manual Testing
 - [Contrast check](https://contrast-grid.eightshapes.com/)
+
+## Lighthouse testing
+
+## Wave testing
+
+
 
 
 # Fixed bugs
