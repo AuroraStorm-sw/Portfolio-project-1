@@ -133,6 +133,10 @@ a {
     padding-bottom: 5px;
 }
 
+.text-box-style b {
+      font-size: 22px;
+}
+
 
 #text-box-left, #text-box-center, #text-box-right {
   min-width: 300px;
@@ -280,13 +284,17 @@ a {
     padding-top: 10px;
 }
 
+#form-header > p {
+  font-size: 22px;
+}
+
  /* Form from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
 #form-container {
     background-color: #ccac90;
     max-width: 800px;
 
-    margin: 25px auto;
+    margin: 28px auto;
     padding: 1%;
 
     border-radius: 5px;
@@ -366,6 +374,8 @@ a {
 
 #thank-you-text {
   text-align: center;
+  font-size: 22px;
+
   background-color: #ccac90;
 
   max-width: 40%;
