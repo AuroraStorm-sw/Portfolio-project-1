@@ -16,13 +16,13 @@ h1 {
 }
 
 h1, h2 {
-    font-family: Roboto Slab, serif;
+    font-family: 'Roboto Slab', serif;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 form, p, li, h3 {
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', serif;
     font-weight: 400;
 
 }
@@ -35,7 +35,7 @@ a {
 
 #logo {
     color: #3b2200;
-    font-family: Roboto Slab, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 180%;
     margin: 20px 20px;
     padding: 5px;
@@ -90,7 +90,7 @@ a {
 /*............. Navigation bar .............*/
 
 #nav {
-    font-family: Roboto Slab, serif;
+    font-family: 'Roboto Slab', serif;
     float: right;
     font-size: 180%;
     margin-top: 30px;
@@ -437,6 +437,8 @@ i {
   margin: 50px 15% 0 0;
 }
 
+}
+
 @media screen and (max-width: 900px) {
 
   #logo {
@@ -446,13 +448,26 @@ i {
 
   #nav {
     float: none;
-   
   }
 
   #nav ul > li {
     list-style: none;
     display: block;
-    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+  body {
+    background-color: #73ce78;
+  }
+
+  #logo h2 {
+    margin-left: 0;
+  }
+
+  i {
+    padding: 5px 10px;
   }
 
 }
