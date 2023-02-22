@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     background-color: #FFF1E4;
     /* soft white color with a touch of creme to add to a cozy feel */
 }
@@ -368,7 +369,7 @@ a {
   text-align: center;
   background-color: #ccac90;
 
-  max-width: 50%;
+  max-width: 40%;
 
   border: 1px solid #3b2200;
   border-radius: 5px;
@@ -381,12 +382,14 @@ a {
 
 footer{
     width: 100%;
+    margin-top: 50px;
+    
 }
 
-#thank-you-page {
+/* #thank-you-page {
     position: fixed;
     bottom: 0;
-}
+} */
 
 .no-map {
     height: 15px;
