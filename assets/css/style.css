@@ -9,7 +9,6 @@ body {
     padding: 0;
     height: 100%;
     background-color: #FFF1E4;
-    /* soft white color with a touch of creme to add to a cozy feel */
 }
 
 h1 {
@@ -391,10 +390,6 @@ footer{
     bottom: 0;
 } */
 
-.no-map {
-    height: 15px;
-}
-
 #social-media {
     max-height: 45px;
     min-width: 100%;
@@ -417,6 +412,26 @@ footer{
 i {
     font-size: 38px;
     padding: 5px 25px 0px 25px;
+}
+
+/*............. Map .............*/
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 100%;
+}
+
+.no-map {
+  height: 15px;
 }
 
 /*........................... Media Query ...........................*/
@@ -460,10 +475,6 @@ i {
 }
 
 @media screen and (max-width: 400px) {
-  
-  body {
-    background-color: #73ce78;
-  }
 
   #logo h2 {
     margin-left: 0;
@@ -472,5 +483,4 @@ i {
   i {
     padding: 5px 10px;
   }
-
 }
