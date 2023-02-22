@@ -143,22 +143,6 @@ a {
 
 }
 
-/* .text-box-style {
-    max-width: 300px;
-    min-height: 200px;
-    background-color: #ccac90;
-
-    border: 1px solid #3b2200;
-    border-radius: 5px;
-
-    padding-bottom: 5px;
-} */
-
-.text-box-style b {
-      font-size: 22px;
-}
-
-
 #text-box-left, #text-box-center, #text-box-right {
   width: 300px;
   min-height: 150px;
@@ -435,6 +419,8 @@ footer{
     min-width: 100%;
     background-color: #ccac90;
 
+    margin: 0;
+
 }
 
 #social-media > ul {
@@ -456,22 +442,10 @@ i {
 
 /*............. Map .............*/
 
-.mapouter {
-  position: relative;
-  text-align: right;
+.map {
   height: 200px;
   width: 100%;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 200px;
-  width: 100%;
-}
-
-.no-map {
-  height: 15px;
+  margin: 0;
 }
 
 /*........................... Media Query ...........................*/
