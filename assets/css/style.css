@@ -127,7 +127,6 @@ a {
   border-radius: 5px;
 
   margin-left: 15%;
-
   
 } 
 
@@ -143,9 +142,9 @@ a {
 
 }
 
-#text-box-left, #text-box-center, #text-box-right {
-  width: 300px;
-  min-height: 150px;
+.home-column {
+ max-width: 300px;
+
   background-color: #ccac90;
 
   border: #3b2200 solid 1px;
@@ -153,6 +152,19 @@ a {
   margin: 10px auto;
   padding-top: 5px;
   }
+
+  /* Container for flexboxes */
+.home-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.home-column {
+  flex: 25%;
+  padding: 20px;
+
+}
 
 
 
@@ -495,28 +507,24 @@ i {
     margin: auto;
   }
 
-  #text-box-left, #text-box-center, #text-box-right {
-
-    width: 70%;
+  .home-column {
+    flex: 50%;
   }
 
 }
 
 @media screen and (max-width: 500px) {
 
-  #logo h2 {
-    margin-left: 0;
+.home-row {
+    flex-direction: column;
   }
 
-  i {
-    padding: 5px 10px;
-  }
+.home-column {
+  min-width: 300px;
+}
 
-  .column {
-    width: 100%;
-  }
 
-  #hero-banner-outer h2, #contact-banner-outer h2 {
+#hero-banner-outer h2, #contact-banner-outer h2 {
     font-size: 200%;
 }
 
