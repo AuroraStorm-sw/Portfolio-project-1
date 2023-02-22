@@ -363,6 +363,8 @@ a {
 
 /*............. Thank you message .............*/
 
+
+/* Page container and wrap from https://www.freecodecamp.org */
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -398,10 +400,17 @@ a {
 /*........................... FOOTER ...........................*/
 
 footer{
+  width: 100%;
+  bottom: 0;
+
+}
+
+#thank-you-page {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: 2.5rem;  
+
 }
 
 #thank-you-page {
