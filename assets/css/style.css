@@ -64,7 +64,7 @@ a {
     margin-bottom: 10px;
 }
 
-#hero-banner-outer h1 {
+#hero-banner-outer h2 {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -143,7 +143,7 @@ a {
 
 }
 
-.text-box-style {
+/* .text-box-style {
     max-width: 300px;
     min-height: 200px;
     background-color: #ccac90;
@@ -152,7 +152,7 @@ a {
     border-radius: 5px;
 
     padding-bottom: 5px;
-}
+} */
 
 .text-box-style b {
       font-size: 22px;
@@ -160,7 +160,7 @@ a {
 
 
 #text-box-left, #text-box-center, #text-box-right {
-  min-width: 300px;
+  width: 300px;
   min-height: 150px;
   background-color: #ccac90;
 
@@ -308,10 +308,6 @@ a {
     border-radius: 5px;
 }
 
-#form-container p {
-  text-align: center;
-}
-
  input[type=text], select, textarea {
     width: 90%; 
 
@@ -339,6 +335,10 @@ a {
 
   fieldset {
     border: none;
+}
+
+legend {
+  text-align: center;
 }
 
   input[type="radio"] {
@@ -515,6 +515,17 @@ i {
     display: block;
   }
 
+  .home-textbox {
+    max-width: 70%;
+    
+    margin: auto;
+  }
+
+  #text-box-left, #text-box-center, #text-box-right {
+
+    width: 70%;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -531,14 +542,12 @@ i {
     width: 100%;
   }
 
-  #hero-banner-outer h1 {
+  #hero-banner-outer h2, #contact-banner-outer h2 {
     font-size: 200%;
 }
 
-.home-textbox {
-  min-width: 300px;
-  
- margin: auto;
-}  
+#materials-banner-outer h2 {
+  font-size: 300%;
+}
 
 }
