@@ -2,6 +2,8 @@
 
 ![responsive img](documentation/responsive.png)
 
+Full responsive site [here](https://ui.dev/amiresponsive?url=https://aurorastorm-sw.github.io/Portfolio-project-1/)
+
 ### [Full website here](https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
 
 # Table of contents
@@ -255,8 +257,10 @@ Steps I took to deploy my website;
 ## Tools
 - https://balsamiq.com/ - Balsamiq Wireframes
 - https://tinypng.com/ - Image compression
+- https://ui.dev/amiresponsive - Responsiveness testing
 - https://jigsaw.w3.org/css-validator/validator - CSS validation
 - https://validator.w3.org/ - HTML validator
+- https://contrast-grid.eightshapes.com/ - Contrast checker
 - https://developer.chrome.com/docs/devtools/ - Responsiveness testing/bug searching throughout the process
 - https://www.freecodecamp.org/ - Correctly setting footer on Thankyou.html
 - https://www.w3schools.com/ & https://developer.mozilla.org/en-US/ - Visited several times during the projet to help get codes written correctly.
