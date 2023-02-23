@@ -34,6 +34,7 @@
     - [Lighthouse testing](#lighthouse-testing)
     - [Wave testing](#wave-testing)
     - [Bugs](#bugs)
+. [Deployment](#deployment)
 - [Tools](#tools)
 - [Credits](#credits)
 
@@ -190,19 +191,26 @@ The footer is made up of 4 social media links and a google maps bar connected to
 ## Validator testing
  [See full HTML validation here](https://validator.w3.org/nu/?doc=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F)
 
+ See comment on errors below.
+
 ![HTML validation](documentation/html-validator.PNG)
 
- See comment on errors below.
+
  
  [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![CSS validation](documentation/css-validation.png)
 
 [Contrast check](https://contrast-grid.eightshapes.com/)
+
 ![Color image link](documentation/colors.PNG)
 
 
 ## Lighthouse testing
+
+[Full test here](https://www.webpagetest.org/result/230223_AiDcNW_978/#Performance)
+
+![Lighthouse test](documentation/lighthouse.png)
 
 
 ## Wave testing
@@ -225,6 +233,8 @@ The website has been manually tested for responsiveness across Firefox, Google C
 ## Bugs remaining 
 - iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I haven't been able to change the link in a way that it remains responsive on-site without removing the values from the link and into the style sheet. Decided to leave it be as it doesn't affect the rest of the website.
 
+## Deployment
+
 ## Tools
 
 - https://tinypng.com/ - Image compression
@@ -235,14 +245,16 @@ The website has been manually tested for responsiveness across Firefox, Google C
 
 # Credits
 
+- Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
+
 Fonts:
     - https://fonts.google.com/
 
-How to position image text:
+How to position banner and image text:
 - https://www.w3schools.com/howto/howto_css_image_text.asp
 
 Column layout:
-https://www.w3schools.com/howto/howto_css_two_columns.asp
+- https://www.w3schools.com/howto/howto_css_two_columns.asp
 
  Contact form template HTML and CSS:
 
