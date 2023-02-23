@@ -50,6 +50,7 @@ The reason for creating this website is to invite people who enjoy crocheting, n
 ## First-time visitor goals:
 - users can learn what the meetups are about
 - users can learn about the location of the meetups
+- understand if the meetups are for someone of my skill level
 
 ## Returning visitor goals:
 - users can message the meetup coordinator with questions and feedback
@@ -94,6 +95,9 @@ All wireframes are made with Balsamiq Wireframes.
 # Designs
 
 ## Colors
+
+![thankyou wireframe image](documentation/colors.PNG)
+
 My main goal for the colors was to make the page feel welcoming and cozy, as well as not too bright or dark.
 
 The colors used for the page are inspired by three different shades of coffee, one with milk and one without. The dark shade is used for logo and navbar elements and as borders.
@@ -106,7 +110,7 @@ The lightest shade is used as background color for the body.
 ## Fonts
 When picking fonts, I looked for ones that sparked feelings of "casual" yet "creative" without going overboard. I searched different serif fonts on [Google Fonts](https://fonts.google.com/)
 
-The first pick was Roboto Slab, light 300, for big headings. This font I used with the [Font Joy generator](https://fontjoy.com/) and found my second font Open Sans which is used for paragraphs and smaller headings. 
+The first pick was Roboto Slab, light 300, for big headings. This font I used with the [Font Joy generator](https://fontjoy.com/) and found my second font Open Sans which is used for the slogan as well as paragraphs and smaller headings. 
 
 ![font image link](documentation/fonts.PNG)
 
@@ -114,7 +118,7 @@ Both fonts are backed up with 'Serif'.
 
 ## Images
 
-![Hero banner](/assets/images/hero-banner.jpg)
+![Hero banner](documentation/hero-banner-smaller.jpg)
 
 I picked this as the banner for the home page because the colors are calm and easy on the eyes, and the image displays what the website is built for; crocheting and coffee.
 
@@ -139,10 +143,12 @@ The image I found for the contact banner I found also fits the calm, cozy feel w
 The website is made up of 4 pages;
 
 - Home
+
 ![Home page img](documentation/home-page.png)
 
 
 The home page includes a short history about crocheting and how crafting in history has been done in the company of a community.
+Beneath is 4 boxes including information about where the meetups are held, where, who can join, and what to bring.
 
 From the start, there were three separate boxes with information about the time and place of the meetups. This was changed into a 4 column layout as the previous one was difficult to style in a satisfying way.
 
@@ -166,19 +172,19 @@ The contact page is made up of a simple contact form that brings the user to a t
 
 
 ## Logo
-[Logo img](documentation/nav.PNG)
+![Logo img](documentation/logo.PNG)
 
 Across all pages is the logo that's been decorated with a dotted border to make it stand out from the rest of the content and also decorate the text.
 
 
 ## Navigation bar
 
-[Navbar img](documentation/nav.PNG) 
+![Navbar img](documentation/nav.PNG) 
 
 Across all pages is the navigation bar with minimalistic styling. Since the logo is decorated, it felt safest to go with a low-key design for the navigation bar. It includes three links to Home, Materials, and Contact.
 
 ## Footer
-[Footer img](documentation/footer.PNG) 
+![Footer img](documentation/footer.PNG) 
 
 The footer is made up of 4 social media links and a google maps bar connected to a made-up address. The map is only located on the home and contact pages, whereas the social media links are added to each page.
 
@@ -233,7 +239,7 @@ The website has been manually tested for responsiveness across Firefox, Google C
 ## Bugs remaining 
 - iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I haven't been able to change the link in a way that it remains responsive on-site without removing the values from the link and into the style sheet. Decided to leave it be as it doesn't affect the rest of the website.
 
-- Google Maps ifame includes a strip of white space between the map and the media icons that I can't 
+- Google Maps ifame includes a strip of white space between the map and the media icons that I can't resolve in time for submission.
 
 ## Deployment
 
@@ -247,7 +253,7 @@ Steps I took to deploy my website;
 - A few minutes later, upon refreshing the page, my site was live
 
 ## Tools
-
+- https://balsamiq.com/ - Balsamiq Wireframes
 - https://tinypng.com/ - Image compression
 - https://jigsaw.w3.org/css-validator/validator - CSS validation
 - https://validator.w3.org/ - HTML validator
