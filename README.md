@@ -34,7 +34,7 @@
     - [Lighthouse testing](#lighthouse-testing)
     - [Wave testing](#wave-testing)
     - [Bugs](#bugs)
-. [Deployment](#deployment)
+- [Deployment](#deployment)
 - [Tools](#tools)
 - [Credits](#credits)
 
