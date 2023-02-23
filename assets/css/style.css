@@ -79,7 +79,7 @@ a {
 #hero-banner {
     min-height: 400px;
     min-width: 100%;
-    background: url('../images/hero-banner.jpg') no-repeat center;
+    background: url('../images/hero-banner1.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     background-color: #ccac90;
@@ -194,6 +194,9 @@ a {
     background: url('../images/materials-banner.jpg') no-repeat center center;
     background-color: #ccac90;
 
+    background-size: cover;
+    position: relative;
+
     opacity: 0.6;
 }
 
@@ -259,6 +262,9 @@ a {
 
     background: url('../images/contact-banner.jpg') no-repeat center;
     background-color: #ccac90;
+
+    background-size: cover;
+    position: relative;
 
     opacity: 0.6;
 }
