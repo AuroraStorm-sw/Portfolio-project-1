@@ -233,6 +233,8 @@ The website has been manually tested for responsiveness across Firefox, Google C
 ## Bugs remaining 
 - iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I haven't been able to change the link in a way that it remains responsive on-site without removing the values from the link and into the style sheet. Decided to leave it be as it doesn't affect the rest of the website.
 
+- Google Maps ifame includes a strip of white space between the map and the media icons that I can't 
+
 ## Deployment
 
 This project was deployed via GitHub Pages and the Gitpod browser, used as a development environment. From here I could commit and push my changes throughout the project.
