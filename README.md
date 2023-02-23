@@ -237,9 +237,9 @@ The website has been manually tested for responsiveness across Firefox, Google C
 - The content of the Materials page was at first sectioned into two separate columns side by side with images on the left and text on the right. When working on making the page responsive, the text broke off in weird ways, and it was difficult to style. I resorted to stacking the columns on top of each other, and so the page was responsive from the start.
 
 ## Bugs remaining 
-- iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I haven't been able to change the link in a way that it remains responsive on-site without removing the values from the link and into the style sheet. Decided to leave it be as it doesn't affect the rest of the website.
+- iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I haven't been able to change the link in a way that it remains responsive on-site without removing the values from the link. Decided to leave it be as it doesn't visually affect the rest of the website.
 
-- Google Maps ifame includes a strip of white space between the map and the media icons that I can't resolve in time for submission.
+- Google Maps ifame includes a strip of white space between the map and the media icons that I haven't found any way to fix. After testing, it seems to be part of the map link.
 
 ## Deployment
 
@@ -259,13 +259,21 @@ Steps I took to deploy my website;
 - https://validator.w3.org/ - HTML validator
 - https://developer.chrome.com/docs/devtools/ - Responsiveness testing/bug searching throughout the process
 - https://www.freecodecamp.org/ - Correctly setting footer on Thankyou.html
+- https://www.w3schools.com/ & https://developer.mozilla.org/en-US/ - Visited several times during the projet to help get codes written correctly.
 
 # Credits
 
+- ReadMe inspiration picked from various projects from other Code Institute students from the #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#deployment
+
 - Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
 
+Flavicon:
+
+- https://www.flaticon.com/
+
 Fonts:
-    - https://fonts.google.com/
+
+ - https://fonts.google.com/
 
 How to position banner and image text:
 - https://www.w3schools.com/howto/howto_css_image_text.asp
