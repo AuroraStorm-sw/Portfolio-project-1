@@ -118,7 +118,7 @@ a {
 
 
 .home-textbox {
-  max-width: 70%;
+  min-width: 80vw;
 
   background-color: #ccac90;
   text-align: center;
@@ -137,13 +137,10 @@ a {
 
 /*............. Time and place information .............*/
 
-#time-place-information{
-  text-align: center;
-
-}
-
 .home-column {
- max-width: 300px;
+  max-width: 300px;
+
+  text-align: center;
 
   background-color: #ccac90;
 
@@ -221,10 +218,6 @@ a {
   margin-top: 5px;
   padding-top: 2%;
 
-}
-
-.column ul {
-  padding: 0;
 }
 
 .column li {
@@ -465,6 +458,8 @@ i {
 
 /*........................... Media Query ...........................*/
 
+            /* Picked from relevant breakpoints */
+
 @media screen and (max-width: 900px) {
 
   #logo {
@@ -485,6 +480,10 @@ i {
     flex: 50%;
   }
 
+  .home-textbox {
+    margin: 2%;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -494,11 +493,13 @@ i {
   }
 
 .home-column {
-  min-width: 300px;
+  min-width: 400px;
+  padding: 0;
 }
 
 .home-textbox {
-  min-width: 200px;
+    margin: auto;
+    width: 400px;
 
 }
 
