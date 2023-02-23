@@ -191,8 +191,11 @@ The footer is made up of 4 social media links and a google maps bar connected to
 # Testing
 
 ## Validator testing
-    - [HTML validation]()
-    - [CSS validation]()
+ - [HTML validation]()
+
+ [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![CSS validation](documentation/css-validation.png)
+
 
 ## Manual Testing
 - [Contrast check](https://contrast-grid.eightshapes.com/)
@@ -200,6 +203,8 @@ The footer is made up of 4 social media links and a google maps bar connected to
 ## Lighthouse testing
 
 ## Wave testing
+
+![Wave test](documentation/WAVE-report.png)
 
 [Full test here](https://wave.webaim.org/report#/https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
 
@@ -215,6 +220,7 @@ The footer is made up of 4 social media links and a google maps bar connected to
 - https://tinypng.com/ - Image compression
 - https://jigsaw.w3.org/css-validator/validator - CSS validation
 - https://validator.w3.org/ - HTML validator
+- https://developer.chrome.com/docs/devtools/ - Responsiveness testing/bug searching throughout the process
 
 # Credits
 
