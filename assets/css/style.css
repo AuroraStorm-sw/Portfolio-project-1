@@ -488,6 +488,11 @@ i {
 
 @media screen and (max-width: 500px) {
 
+  #logo h2 {
+    font-size: 85%;
+    margin-left: 0;
+}
+
 .home-row {
     flex-direction: column;
   }
@@ -525,11 +530,4 @@ i {
     border: 3px dotted #000;
     border-radius: 5px;
 }
-
-#logo h2 {
-    font-size: 85%;
-    margin-left: 0;
-}
-
-
 }
