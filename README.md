@@ -33,7 +33,7 @@
     - [Manual testing](#manual-testing)
     - [Lighthouse testing](#lighthouse-testing)
     - [Wave testing](#wave-testing)
-    - [Fixed bugs](#fixed-bugs)
+    - [Bugs](#bugs)
 - [Tools](#tools)
 - [Credits](#credits)
 
@@ -100,10 +100,6 @@ The colors used for the page are inspired by three different shades of coffee, o
 The medium shade is used as background color for text sections and the contact form.
 
 The lightest shade is used as background color for the body.
-
-All three shades pass the contrast test with the highest score.
-
-![Color image link](documentation/colors.PNG)
 
 
 ## Fonts
@@ -183,29 +179,33 @@ Across all pages is the navigation bar with minimalistic styling, since the logo
 ## Footer
 [Footer img](documentation/footer.PNG) 
 
-The footer is made up of 4 social media links and a google maps bar connected to a made-up address.
+The footer is made up of 4 social media links and a google maps bar connected to a made-up address. The map is only locateds on the home and contact page, whereas the social media links are added to each page.
 
 # Features Left To Implement
 - A proper time schedule with booking 
 - Application to mentor beginners
 
-
 # Testing
 
 ## Validator testing
- - [See full HTML validation here](https://validator.w3.org/nu/?doc=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F)
-
- See comment on errors below.
+ [See full HTML validation here](https://validator.w3.org/nu/?doc=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F)
 
 ![HTML validation](documentation/html-validator.PNG)
 
- - [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ See comment on errors below.
+ 
+ [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![CSS validation](documentation/css-validation.png)
 
+[Contrast check](https://contrast-grid.eightshapes.com/)
+![Color image link](documentation/colors.PNG)
+
 
 ## Manual Testing
-- [Contrast check](https://contrast-grid.eightshapes.com/)
+
+
+
 
 ## Lighthouse testing
 
@@ -216,13 +216,13 @@ The footer is made up of 4 social media links and a google maps bar connected to
 
 [Full test here](https://wave.webaim.org/report#/https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
 
+# Bugs
 
-
-# Fixed bugs
+## Fixed bugs
 - The content of the Thank you page wasn't full enough to push the footer all the way down to the bottom of the page, got help from a tutor to create a vh style setting to push the footer down.
 - The content of the Materials page was at first sectioned into 2 separate columns side by side with images on the left and text on the right. When working on making the page responsive, the text broke off in weird ways and it was difficult to style. I resorded to stacking the columns on top of each other and so the page was responsive from the start.
 
-# Bugs remaining
+## Bugs remaining 
 - iframe link to Google Maps gives bad values and triggers errors on HTML validator. Haven't been able to change the link in a way that it remains responsive on site without removing the values from the link and into the style sheet. Decided to leave it be as it doesn't affect the rest of the website.
 
 ## Tools
