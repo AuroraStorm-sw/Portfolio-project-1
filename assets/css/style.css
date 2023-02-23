@@ -1,8 +1,8 @@
-/*............. Google fonts .............*/
+          /*............. Google fonts .............*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
 
-/*............. General .............*/
+/*........................... GENERAL ...........................*/
 
 body {
     margin: 0;
@@ -30,7 +30,9 @@ a {
     color: #000;
 }
 
-/*............. Logo .............*/
+/*........................... HOME PAGE ...........................*/
+
+          /*............. Logo .............*/
 
 #logo {
     color: #3b2200;
@@ -49,7 +51,7 @@ a {
     margin-left: 150px;
 }
 
-/*............. Hero banner .............*/
+          /*............. Hero banner .............*/
 
 /* Guide from https://www.w3schools.com/howto/howto_css_hero_image.asp */
 
@@ -86,7 +88,7 @@ a {
 }
 
 
-/*............. Navigation bar .............*/
+          /*............. Navigation bar .............*/
 
 #nav {
     font-family: 'Roboto Slab', serif;
@@ -114,7 +116,7 @@ a {
     border-bottom: solid 1px #3b2200;
 }
 
-/*............. Text boxes .............*/
+          /*............. Text boxes .............*/
 
 
 .home-textbox {
@@ -135,7 +137,7 @@ a {
 }
 
 
-/*............. Time and place information .............*/
+/* Guide from https://www.w3schools.com/howto/howto_css_four_columns.asp */
 
 .home-column {
   max-width: 300px;
@@ -150,13 +152,11 @@ a {
   padding-top: 5px;
   }
 
-  /* Container for flexboxes */
 .home-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create four equal columns */
 .home-column {
   flex: 25%;
   padding: 20px;
@@ -166,7 +166,7 @@ a {
 /*........................... MATERIALS PAGE ...........................*/
 
 
-/*............. Materials Banner .............*/
+          /*............. Materials Banner .............*/
 
 #materials-banner-outer{
     width: 100%;
@@ -197,7 +197,7 @@ a {
     opacity: 0.6;
 }
 
-/*............. Material text .............*/
+          /*............. Material text .............*/
 
 /* Guide from https://www.w3schools.com/howto/howto_css_two_columns.asp */
 
@@ -242,8 +242,7 @@ a {
 
 /*........................... CONTACT PAGE ...........................*/
 
-/*............. Contact Banner .............*/
-
+          /*............. Contact Banner .............*/
 
 #contact-banner-outer {
     width: 100%;
@@ -274,9 +273,7 @@ a {
     font-size: 400%;
 }
 
-
-
-/*............. Form .............*/
+          /*............. Form .............*/
 
 #form-header {
     text-align: center;
@@ -363,7 +360,7 @@ legend {
     padding: 20px;
 } 
 
-/*............. Thank you message .............*/
+          /*............. Thank you message .............*/
 
 
 /* Page container and wrap from https://www.freecodecamp.org */
@@ -456,7 +453,7 @@ i {
   margin: 0;
 }
 
-/*........................... Media Query ...........................*/
+/*........................... MEDIA QUERY ...........................*/
 
             /* Picked from relevant breakpoints */
 

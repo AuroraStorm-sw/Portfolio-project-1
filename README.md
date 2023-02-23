@@ -1,6 +1,6 @@
 # Crochet & Coffee website
 
-## [Full website here](https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
+### [Full website here](https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
 
 # Table of contents
 
@@ -20,17 +20,12 @@
     - [Images](#images)
 - [Features](#features)
     - [Home](#home)
-        - [Time and location information](#time-and-location-information)
-        - [Short history of crocheting](#short-history-about-crocheting)
     - [Materials](#materials)
-        - [Information of what materials to bring](#information-about-what-materials-to-bring)
     - [Contact](#contact)
-        - [Contact form](#contact-form)
-        - [Thank You for your message page](#thank-you-message)
     - [Logo](#logo)
     - [Navigation bar](#navigation-bar)
     - [Footer](#footer)
-    - [Features left to implement](#features-left-to-implement)
+        - [Features left to implement](#features-left-to-implement)
 - [Testing](#testing)
     - [Validator testing](#validator-testing)
     - [Manual testing](#manual-testing)
@@ -133,6 +128,7 @@ The search for a perfect banner for the materials page was long but I fell for t
 ![yarn](/assets/images/yarn.jpg)
 ![crochet hooks](/assets/images/crochet-hooks.jpg)
 ![scissors](/assets/images/scissor.jpg)
+![stitch-markers](/assets/images/stitch-marker.jpg)
 ![pattern](/assets/images/pattern.jpg)
 
 Each image for the Materials page was picked to make the most sense in regards to each paragraph of information.
@@ -205,6 +201,8 @@ The footer is made up of 4 social media links and a google maps bar connected to
 
 ## Wave testing
 
+[Full test here](https://wave.webaim.org/report#/https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
+
 
 
 
@@ -214,12 +212,20 @@ The footer is made up of 4 social media links and a google maps bar connected to
 
 ## Tools
 
-- Tinypng
+- https://tinypng.com/ - Image compression
+- https://jigsaw.w3.org/css-validator/validator - CSS validation
+- https://validator.w3.org/ - HTML validator
 
 # Credits
 
+Fonts:
+    - https://fonts.google.com/
+
 How to position image text:
 - https://www.w3schools.com/howto/howto_css_image_text.asp
+
+Column layout:
+https://www.w3schools.com/howto/howto_css_two_columns.asp
 
  Contact form template HTML and CSS:
 
@@ -233,7 +239,7 @@ Generated fake address by:
 - https://www.fakexy.com/fake-address-generator-uk
 
 Map:
-- Google maps location Derbyshire
+- https://www.google.com/maps location Derbyshire
 
 Images:
 - Hero banner from rockonwool: 
@@ -253,6 +259,8 @@ https://unsplash.com/photos/kN6kOIfyntk
 
 - Scissor image from Karolina Grabowska:
  https://www.pexels.com/photo/small-golden-scissors-on-beige-surface-4226910/
+
+ - Stitch marker image by me
 
 - Pattern image from Anete Lusina:
 https://www.pexels.com/photo/crochet-and-thread-on-magazine-in-daytime-4792085/
