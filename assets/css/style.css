@@ -491,18 +491,17 @@ i {
 }
 
 .home-row {
-    flex-direction: column;
-  }
-
-.home-column {
-  min-width: 400px;
-  padding: 0;
+  flex-direction: column;
 }
 
 .home-textbox {
     margin: auto;
-    width: 400px;
 
+}
+
+.home-column {
+  min-width: 100%;
+  padding: 0;
 }
 
 #hero-banner-outer h2, #contact-banner-outer h2 {
