@@ -191,9 +191,14 @@ The footer is made up of 4 social media links and a google maps bar connected to
 # Testing
 
 ## Validator testing
- - [HTML validation]()
+ - [See full HTML validation here](https://validator.w3.org/nu/?doc=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F)
 
- [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ See comment on errors below.
+
+![HTML validation](documentation/html-validator.PNG)
+
+ - [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ![CSS validation](documentation/css-validation.png)
 
 
@@ -201,6 +206,7 @@ The footer is made up of 4 social media links and a google maps bar connected to
 - [Contrast check](https://contrast-grid.eightshapes.com/)
 
 ## Lighthouse testing
+
 
 ## Wave testing
 
@@ -212,8 +218,11 @@ The footer is made up of 4 social media links and a google maps bar connected to
 
 
 # Fixed bugs
-- The content of the Thank you page wasn't full enough to push the footer all the way down to the bottom of the page, so I had to stick it in place with position: fixed; margin: 0;
+- The content of the Thank you page wasn't full enough to push the footer all the way down to the bottom of the page, got help from a tutor to create a vh style setting to push the footer down.
 - The content of the Materials page was at first sectioned into 2 separate columns side by side with images on the left and text on the right. When working on making the page responsive, the text broke off in weird ways and it was difficult to style. I resorded to stacking the columns on top of each other and so the page was responsive from the start.
+
+# Bugs remaining
+- iframe link to Google Maps gives bad values and triggers errors on HTML validator. Haven't been able to change the link in a way that it remains responsive on site without removing the values from the link and into the style sheet. Decided to leave it be as it doesn't affect the rest of the website.
 
 ## Tools
 
