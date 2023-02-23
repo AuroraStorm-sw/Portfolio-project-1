@@ -1,5 +1,7 @@
 # Crochet & Coffee website
 
+![responsive img](documentation/responsive.png)
+
 ### [Full website here](https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
 
 # Table of contents
@@ -213,7 +215,6 @@ The footer is made up of 4 social media links and a google maps bar connected to
 ![Wave test](documentation/WAVE-report.png)
 
 [Full test here](https://wave.webaim.org/report#/https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
-
 
 
 
