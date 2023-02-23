@@ -230,6 +230,7 @@ The footer is made up of 4 social media links and a google maps bar connected to
 - https://jigsaw.w3.org/css-validator/validator - CSS validation
 - https://validator.w3.org/ - HTML validator
 - https://developer.chrome.com/docs/devtools/ - Responsiveness testing/bug searching throughout the process
+- https://www.freecodecamp.org/ - Correctly setting footer on Thankyou.html
 
 # Credits
 
