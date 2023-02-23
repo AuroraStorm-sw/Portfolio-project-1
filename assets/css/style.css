@@ -223,6 +223,10 @@ a {
 
 }
 
+.column ul {
+  padding: 0;
+}
+
 .column li {
     list-style: none;
     padding: 2%;
