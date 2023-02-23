@@ -202,11 +202,6 @@ The footer is made up of 4 social media links and a google maps bar connected to
 ![Color image link](documentation/colors.PNG)
 
 
-## Manual Testing
-
-
-
-
 ## Lighthouse testing
 
 
@@ -215,6 +210,11 @@ The footer is made up of 4 social media links and a google maps bar connected to
 ![Wave test](documentation/WAVE-report.png)
 
 [Full test here](https://wave.webaim.org/report#/https://aurorastorm-sw.github.io/Portfolio-project-1/index.html)
+
+
+## Manual Testing
+
+The website has been manually tested for responsiveness across Firefox, Google Chrome, and Edge on PC and on mobile on Samsung Galaxy S20.
 
 # Bugs
 
