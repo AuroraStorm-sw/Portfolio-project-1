@@ -237,11 +237,8 @@ The website has been manually tested for responsiveness across Firefox, Google C
 ## Fixed bugs
 - The content of the Thank you page wasn't full enough to push the footer all the way down to the bottom of the page. I got help from a tutor to create a vh style setting to push the footer down.
 - The content of the Materials page was at first sectioned into two separate columns side by side with images on the left and text on the right. When working on making the page responsive, the text broke off in weird ways, and it was difficult to style. I resorted to stacking the columns on top of each other, and so the page was responsive from the start.
-
-## Bugs remaining 
-- iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I haven't been able to change the link in a way that it remains responsive on-site without removing the values from the link. Decided to leave it be as it doesn't visually affect the rest of the website.
-
-- Google Maps ifame includes a strip of white space between the map and the media icons that I haven't found any way to fix. After testing, it seems to be part of the map link.
+- iframe link to Google Maps gives bad values and triggers errors on the HTML validator. I weren't ben able to change the link in a way that it remains responsive on-site without removing the values from the link. Found a new link from another website that was easier to style in CSS and swapped them out.
+- Google Maps ifame includes a strip of white space between the map and the media icons that I haven't found any way to fix. After testing, it seems to be part of the map link. This issue disappeared when I swapped to another link.
 
 ## Deployment
 
@@ -297,7 +294,7 @@ Generated fake address by:
 - https://www.fakexy.com/fake-address-generator-uk
 
 Map:
-- https://www.google.com/maps location Derbyshire
+- https://www.embedgooglemap.net/ location Derbyshire
 
 Images:
 - Hero banner from rockonwool: 
