@@ -231,14 +231,21 @@ a {
 
   text-align: center;
 
-  margin: 5px;
+  margin: auto;
   padding-top: 2%;
+
+}
+
+.column ul {
+  padding: 0;
 
 }
 
 .column li {
     list-style: none;
-    padding: 2%;
+
+    padding: 1%;
+
 }
   
 .row:after {
@@ -548,7 +555,7 @@ i {
 }
 
 i {
-  font-size: 34px;
+  font-size: 32px;
   padding: 5px 15px 0px 15px;
 }
 
@@ -561,4 +568,8 @@ i {
     border: 3px dotted #000;
     border-radius: 5px;
 }
+
+  .column {
+    padding-top: 0;
+  }
 }
