@@ -267,7 +267,7 @@ Steps I took to deploy my website;
 
 # Credits
 
-- ReadMe inspiration picked from various projects from other Code Institute students from the #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#deployment
+- ReadMe layout inspiration picked from various projects from other Code Institute students from the #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#deployment
 
 - Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
 

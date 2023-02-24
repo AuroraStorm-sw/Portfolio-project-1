@@ -51,6 +51,11 @@ a {
     margin-left: 150px;
 }
 
+#logo a {
+
+  text-decoration: none;
+}
+
           /*............. Hero banner .............*/
 
 /* Guide from https://www.w3schools.com/howto/howto_css_hero_image.asp */
@@ -94,7 +99,7 @@ a {
     font-family: 'Roboto Slab', serif;
     float: right;
     font-size: 180%;
-    margin-top: 30px;
+
 }
 
 #nav ul > li {
@@ -102,6 +107,8 @@ a {
     display: inline;
     margin-right: 30px;
     
+  
+ 
 }
 
 #nav a {
