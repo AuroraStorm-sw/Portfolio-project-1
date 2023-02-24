@@ -96,11 +96,18 @@ a {
 
           /*............. Navigation bar .............*/
 
+#nav-wrap {
+  position: relative;
+}
+
 #nav {
     font-family: 'Roboto Slab', serif;
     float: right;
     font-size: 180%;
 
+    margin-top: 20px;
+
+    position: sticky;
 }
 
 #nav ul > li {
@@ -309,9 +316,8 @@ a {
     border-radius: 5px;
 }
 
- input[type=text], select, textarea {
+ input[type=text], input[type=email], select, textarea {
     width: 90%; 
-
   
     border: 1px solid #3b2200; 
     border-radius: 4px; 
@@ -340,6 +346,7 @@ a {
 
 legend {
   text-align: center;
+  padding: 2%;
 }
 
   input[type="radio"] {
@@ -463,6 +470,8 @@ i {
 .gmap_canvas, iframe {
     height: 200px;
     width: 100%;
+
+    border: none;
 }
 
 .mapouter {
