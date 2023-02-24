@@ -52,6 +52,7 @@ a {
 }
 
 #logo a {
+  color: #3b2200;
 
   text-decoration: none;
 }
@@ -106,13 +107,11 @@ a {
     list-style: none;
     display: inline;
     margin-right: 30px;
-    
-  
- 
 }
 
 #nav a {
     text-decoration: none;
+    color: #3b2200;
 }
 
 #nav a:hover{
@@ -213,8 +212,8 @@ a {
 
 .row {
   width: 70%;
-  margin-left: 15%;
-  margin-top: 2%;
+
+  margin: 2% 0 2% 15%;
 
   border: 1px solid #3b2200;
 }
@@ -225,7 +224,7 @@ a {
 
   text-align: center;
 
-  margin-top: 5px;
+  margin: 5px;
   padding-top: 2%;
 
 }
@@ -437,6 +436,7 @@ footer{
     min-width: 100%;
     background-color: #ccac90;
 
+    padding: 10px;
     margin: 0;
 
 }
@@ -445,7 +445,7 @@ footer{
     list-style: none;
     text-align: center;
 
-    margin: 0;
+     margin: 0;
 
 }
 
@@ -458,15 +458,26 @@ i {
     padding: 5px 25px 0px 25px;
 }
 
-/*............. Map .............*/
+/*............. Map from https://www.embedgooglemap.net/ .............*/
 
-.map {
-  height: 200px;
-  width: 100%;
-  margin: 0;
-
+.gmap_canvas, iframe {
+    height: 200px;
+    width: 100%;
 }
 
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 100%;
+}
 /*........................... MEDIA QUERY ...........................*/
 
             /* Picked from relevant breakpoints */
