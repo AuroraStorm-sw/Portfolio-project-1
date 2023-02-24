@@ -178,6 +178,8 @@ The contact page is made up of a simple contact form that brings the user to a t
 
 Across all pages is the logo that's been decorated with a dotted border to make it stand out from the rest of the content and also decorate the text.
 
+The logo is also a link to return to the home page.
+
 
 ## Navigation bar
 
@@ -201,9 +203,7 @@ The footer is made up of 4 social media links and a google maps bar connected to
 
  See comment on errors below.
 
-![HTML validation](documentation/html-validator.PNG)
-
-
+![HTML validation](documentation/html-validator.png)
  
  [See full CSS validation here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faurorastorm-sw.github.io%2FPortfolio-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 

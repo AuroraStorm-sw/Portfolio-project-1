@@ -23,7 +23,6 @@ h1, h2 {
 form, p, li, h3 {
     font-family: 'Open Sans', serif;
     font-weight: 400;
-
 }
 
 a {
@@ -142,7 +141,6 @@ a {
   border-radius: 5px;
 
   margin: 5%;
-  
 } 
 
 .home-textbox p {
@@ -173,7 +171,6 @@ a {
 .home-column {
   flex: 25%;
   padding: 15px;
-
 }
 
 /*........................... MATERIALS PAGE ...........................*/
@@ -187,8 +184,7 @@ a {
     overflow: hidden;
 
     position: relative;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #materials-banner-outer h2 {
@@ -233,19 +229,16 @@ a {
 
   margin: auto;
   padding-top: 2%;
-
 }
 
 .column ul {
   padding: 0;
-
 }
 
 .column li {
     list-style: none;
 
     padding: 1%;
-
 }
   
 .row:after {
@@ -339,7 +332,6 @@ a {
 
   .label-text {
     margin-left: 5%;
-
  }
 
   textarea {
@@ -429,20 +421,17 @@ footer{
   bottom: 0;
 
   padding: 0;
-
 }
 
 #thank-you-page {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;  
-
+  height: 2.5rem;
 }
 
 #thank-you-page {
     bottom: 0;
-
 }
 
 #social-media {
@@ -452,7 +441,6 @@ footer{
 
     padding: 10px 0;
     margin: 0;
-
 }
 
 #social-media > ul {
@@ -460,7 +448,6 @@ footer{
     text-align: center;
 
      margin: 0;
-
 }
 
 #social-media li {
